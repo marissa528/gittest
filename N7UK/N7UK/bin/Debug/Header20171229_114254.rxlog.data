@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="227e69f7379892d0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mmatisa"
+		rxversion="8.0.0.0"
+		host="CMY-PC0L2L7S"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-AU"
+		screenresolution="3840x1080"
+		timestamp="29/12/2017 11:43:00 AM"
+		timestampiso="2017-12-29T03:43:00"
+		endtime="29/12/2017 11:43:01 AM"
+		timeoutfactor="1"
+		module="Header">
+		<detail>
+			Header
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.722"
+			timeRelativeToTestModuleStartTime="00:00.724"
+			timeWallClock="11:43:00"
+			time="00:00.722"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://www.hearyourway.com/wps/wcm/connect/uk/n7/home' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Header.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f90f04eeaf8a0"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="mmatisa"
+		rxversion="7.2.1.0"
+		host="CMY-PC0L2L7S"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-AU"
+		screenresolution="3840x1080"
+		timestamp="27/12/2017 11:30:59 AM"
+		timestampiso="2017-12-27T03:30:59"
+		endtime="27/12/2017 11:31:11 AM"
+		timeoutfactor="1"
+		module="Parent">
+		<detail>
+			Parent
+		</detail>
+		<errormessage>
+			Failed to move to location '1893;406' within element '{DivTag:outer no-gradient										hidden-xs hidden-sm			   		}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.431"
+			timeRelativeToTestModuleStartTime="00:00.431"
+			timeWallClock="11:31:00"
+			time="00:00.431"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://www.hearyourway.com/wps/wcm/connect/uk/n7/home' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.565"
+			timeRelativeToTestModuleStartTime="00:00.565"
+			timeWallClock="11:31:00"
+			time="00:00.565"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CochlearImplantSoundProcessorNucleus.UtilityNav.Parent'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Parent']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.UtilityNav.Parent"
+				id="5d31619e11004db4b5cfb410ea140eb3"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.223"
+			timeRelativeToTestModuleStartTime="00:02.223"
+			timeWallClock="11:31:02"
+			time="00:02.223"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Parent' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Parent']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.UtilityNav.Parent"
+				id="5d31619e11004db4b5cfb410ea140eb3"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.336"
+			timeRelativeToTestModuleStartTime="00:02.336"
+			timeWallClock="11:31:02"
+			time="00:02.336"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CochlearImplantSoundProcessorNucleus.UtilityNav.Parent' at 39;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Parent']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.UtilityNav.Parent"
+				id="5d31619e11004db4b5cfb410ea140eb3"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.675"
+			timeRelativeToTestModuleStartTime="00:03.675"
+			timeWallClock="11:31:03"
+			time="00:03.675"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'CochlearImplantSoundProcessorNucleus' at 1909;106.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.Self"
+				id="f79cd6f4d6254f09a993064eeceab6ff"
+				timeout="30000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.408"
+			timeRelativeToTestModuleStartTime="00:04.408"
+			timeWallClock="11:31:04"
+			time="00:04.408"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'CochlearImplantSoundProcessorNucleus' at 1906;435.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.Self"
+				id="f79cd6f4d6254f09a993064eeceab6ff"
+				timeout="30000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="99"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.148"
+			timeRelativeToTestModuleStartTime="00:05.148"
+			timeWallClock="11:31:04"
+			time="00:05.148"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CochlearImplantSoundProcessorNucleus.FluidContainer.ProvenToOptimiseYourChildsHearingP'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/div[2]/div/div/div/div[1]/h2[@innertext~'^Proven\ to\ optimise\ your\ c']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.FluidContainer.ProvenToOptimiseYourChildsHearingP"
+				id="725029b4b7424f1cb018b35538d0169c"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="104"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.292"
+			timeRelativeToTestModuleStartTime="00:05.292"
+			timeWallClock="11:31:05"
+			time="00:05.292"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ProvenToOptimiseYourChildsHearingP' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/div[2]/div/div/div/div[1]/h2[@innertext~'^Proven\ to\ optimise\ your\ c']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.FluidContainer.ProvenToOptimiseYourChildsHearingP"
+				id="725029b4b7424f1cb018b35538d0169c"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="105"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.396"
+			timeRelativeToTestModuleStartTime="00:05.396"
+			timeWallClock="11:31:05"
+			time="00:05.396"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CochlearImplantSoundProcessorNucleus1' at 30;63.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Cochlear\ Implant\ Sound\ Pr']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus1.Self"
+				id="30f117dd26784e83a1d6640e2fbe94b7"
+				timeout="30000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="108"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.140"
+			timeRelativeToTestModuleStartTime="00:06.140"
+			timeWallClock="11:31:05"
+			time="00:06.140"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CochlearImplantSoundProcessorNucleus.UtilityNav.Parent'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Parent']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.UtilityNav.Parent"
+				id="5d31619e11004db4b5cfb410ea140eb3"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="112"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.619"
+			timeRelativeToTestModuleStartTime="00:06.619"
+			timeWallClock="11:31:06"
+			time="00:06.619"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Parent' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Parent']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.UtilityNav.Parent"
+				id="5d31619e11004db4b5cfb410ea140eb3"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="113"
+				loglvl="Success"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.723"
+			timeRelativeToTestModuleStartTime="00:06.723"
+			timeWallClock="11:31:06"
+			time="00:06.723"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'CochlearImplantSoundProcessorNucleus' at 1908;275.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.Self"
+				id="f79cd6f4d6254f09a993064eeceab6ff"
+				timeout="30000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="116"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.437"
+			timeRelativeToTestModuleStartTime="00:07.437"
+			timeWallClock="11:31:07"
+			time="00:07.437"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'CochlearImplantSoundProcessorNucleus' at 1904;539.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.Self"
+				id="f79cd6f4d6254f09a993064eeceab6ff"
+				timeout="30000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="121"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.103"
+			timeRelativeToTestModuleStartTime="00:08.103"
+			timeWallClock="11:31:07"
+			time="00:08.103"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CochlearImplantSoundProcessorNucleus.FluidContainer.SpanTagParent'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]//span[@innertext=' Parent']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.FluidContainer.SpanTagParent"
+				id="f0c630965a29467bbb7db7134c539069"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="126"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.230"
+			timeRelativeToTestModuleStartTime="00:08.230"
+			timeWallClock="11:31:08"
+			time="00:08.230"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'SpanTagParent' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]//span[@innertext=' Parent']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.FluidContainer.SpanTagParent"
+				id="f0c630965a29467bbb7db7134c539069"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="127"
+				loglvl="Success"
+				itemindex="10">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.338"
+			timeRelativeToTestModuleStartTime="00:08.338"
+			timeWallClock="11:31:08"
+			time="00:08.338"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CochlearImplantSoundProcessorNucleus.FluidContainer.SpanTagParent' at 100;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]//span[@innertext=' Parent']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.FluidContainer.SpanTagParent"
+				id="f0c630965a29467bbb7db7134c539069"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="130"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.260"
+			timeRelativeToTestModuleStartTime="00:09.260"
+			timeWallClock="11:31:09"
+			time="00:09.260"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CochlearImplantSoundProcessorNucleus.UtilityNav.Parent'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Parent']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.UtilityNav.Parent"
+				id="5d31619e11004db4b5cfb410ea140eb3"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="134"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.833"
+			timeRelativeToTestModuleStartTime="00:09.833"
+			timeWallClock="11:31:09"
+			time="00:09.833"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Parent' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Parent']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.UtilityNav.Parent"
+				id="5d31619e11004db4b5cfb410ea140eb3"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="135"
+				loglvl="Success"
+				itemindex="12">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.940"
+			timeRelativeToTestModuleStartTime="00:09.940"
+			timeWallClock="11:31:09"
+			time="00:09.940"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'CochlearImplantSoundProcessorNucleus' at 1909;71.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.Self"
+				id="f79cd6f4d6254f09a993064eeceab6ff"
+				timeout="30000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="138"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.658"
+			timeRelativeToTestModuleStartTime="00:10.658"
+			timeWallClock="11:31:10"
+			time="00:10.658"
+			level="Info"
+			category="Mouse"
+			errimg=".\Parent20_4b7766ae_7aef163f_trace.jpg"
+			errthumb=".\Parent20_4b7766ae_7aef163f_trace_thumb.jpg">
+			<message>
+				Mouse Left Move item 'CochlearImplantSoundProcessorNucleus' at 1917;63.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.Self"
+				id="f79cd6f4d6254f09a993064eeceab6ff"
+				timeout="30000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="143"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.335"
+			timeRelativeToTestModuleStartTime="00:11.335"
+			timeWallClock="11:31:11"
+			time="00:11.335"
+			level="Info"
+			category="Mouse"
+			errimg=".\Parent20_4b7766ae_74e338a1_trace.jpg"
+			errthumb=".\Parent20_4b7766ae_74e338a1_trace_thumb.jpg">
+			<message>
+				Mouse Left Up item 'CochlearImplantSoundProcessorNucleus.FluidContainer.OuterNoGradientHiddenXs1' at 1893;406.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/div[1]"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.FluidContainer.OuterNoGradientHiddenXs1"
+				id="ae2bd02fdad34ee6b2b361aeaea80a10"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="147"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.443"
+			timeRelativeToTestModuleStartTime="00:11.443"
+			timeWallClock="11:31:11"
+			time="00:11.443"
+			level="Warn"
+			category="MoveTo">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="148"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.637"
+			timeRelativeToTestModuleStartTime="00:11.637"
+			timeWallClock="11:31:11"
+			time="00:11.637"
+			level="Error"
+			category="Module"
+			errimg=".\Parent20_4b7766ae_fff5da58_trace.jpg"
+			errthumb=".\Parent20_4b7766ae_fff5da58_trace_thumb.jpg">
+			<message>
+				Failed to move to location '1893;406' within element '{DivTag:outer no-gradient										hidden-xs hidden-sm			   		}'.<br/>The pointer cannot be moved to point '{X=1893,Y=3182}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.MoveTo(Location location, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.MoveTo(Location location)
+   at N7UK.Parent.Ranorex.Core.Testing.ITestModule.Run() in x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs:line 148
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Parent.cs"
+				codeline="148"
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/div[1]"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.FluidContainer.OuterNoGradientHiddenXs1"
+				id="ae2bd02fdad34ee6b2b361aeaea80a10"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="15">
+			</metainfo>
+		</item>
+	</activity>
+</report>

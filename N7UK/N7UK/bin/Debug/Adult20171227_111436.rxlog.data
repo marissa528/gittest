@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.3m"
+		durationms="77643"
+		type="root"
+		rid="525da5b2e5563ac"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="mmatisa"
+		rxversion="7.2.1.0"
+		host="CMY-PC0L2L7S"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-AU"
+		screenresolution="3840x1080"
+		timestamp="27/12/2017 11:16:23 AM"
+		timestampiso="2017-12-27T03:16:23"
+		endtime="27/12/2017 11:17:40 AM"
+		timeoutfactor="1"
+		module="Adult">
+		<detail>
+			Adult
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.439"
+			timeRelativeToTestModuleStartTime="00:00.439"
+			timeWallClock="11:16:23"
+			time="00:00.439"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://www.hearyourway.com/wps/wcm/connect/uk/n7/home' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Adult.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.579"
+			timeRelativeToTestModuleStartTime="00:00.579"
+			timeWallClock="11:16:23"
+			time="00:00.579"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CochlearImplantSoundProcessorNucleus.UtilityNav.Adult'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Adult']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.UtilityNav.Adult"
+				id="07e953a77de548ec9c0d9411754ccc9d"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Adult.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.669"
+			timeRelativeToTestModuleStartTime="00:02.669"
+			timeWallClock="11:16:25"
+			time="00:02.669"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Adult' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Adult']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.UtilityNav.Adult"
+				id="07e953a77de548ec9c0d9411754ccc9d"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Adult.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.777"
+			timeRelativeToTestModuleStartTime="00:02.777"
+			timeWallClock="11:16:25"
+			time="00:02.777"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CochlearImplantSoundProcessorNucleus.UtilityNav.Adult' at 17;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Adult']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.UtilityNav.Adult"
+				id="07e953a77de548ec9c0d9411754ccc9d"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Adult.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.763"
+			timeRelativeToTestModuleStartTime="00:03.763"
+			timeWallClock="11:16:26"
+			time="00:03.763"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'CochlearImplantSoundProcessorNucleus' at 1910;51.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.Self"
+				id="f79cd6f4d6254f09a993064eeceab6ff"
+				timeout="30000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Adult.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.518"
+			timeRelativeToTestModuleStartTime="00:04.518"
+			timeWallClock="11:16:27"
+			time="00:04.518"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'CochlearImplantSoundProcessorNucleus' at 1918;43.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.Self"
+				id="f79cd6f4d6254f09a993064eeceab6ff"
+				timeout="30000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Adult.cs"
+				codeline="99"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.219"
+			timeRelativeToTestModuleStartTime="00:05.219"
+			timeWallClock="11:16:28"
+			time="00:05.219"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'CochlearImplantSoundProcessorNucleus.FluidContainer.OuterNoGradientHiddenXs' at 1849;155.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div[1]"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.FluidContainer.OuterNoGradientHiddenXs"
+				id="0a5e4b6b1a0e4fd48adf0f33006908b3"
+				timeout="90000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Adult.cs"
+				codeline="103"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:17.643"
+			timeRelativeToTestModuleStartTime="01:17.643"
+			timeWallClock="11:17:40"
+			time="01:17.643"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

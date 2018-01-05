@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="73bd8127f2e0570"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="mmatisa"
+		rxversion="7.2.1.0"
+		host="CMY-PC0L2L7S"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-AU"
+		screenresolution="3840x1080"
+		timestamp="28/12/2017 4:38:03 PM"
+		timestampiso="2017-12-28T08:38:03"
+		endtime="28/12/2017 4:38:07 PM"
+		timeoutfactor="1"
+		module="Closebrowser">
+		<detail>
+			Closebrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.462"
+			timeRelativeToTestModuleStartTime="00:00.462"
+			timeWallClock="16:38:04"
+			time="00:00.462"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://www.hearyourway.com/wps/wcm/connect/uk/n7/home' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Closebrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.600"
+			timeRelativeToTestModuleStartTime="00:00.600"
+			timeWallClock="16:38:04"
+			time="00:00.600"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CochlearImplantSoundProcessorNucleus.ClinicFinder'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//header[#'header']//a[@innertext='Clinic Finder']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.ClinicFinder"
+				id="ec0a03f515814011a091adc97df3b52c"
+				timeout="60000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Closebrowser.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.537"
+			timeRelativeToTestModuleStartTime="00:02.537"
+			timeWallClock="16:38:06"
+			time="00:02.537"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ClinicFinder' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//header[#'header']//a[@innertext='Clinic Finder']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.ClinicFinder"
+				id="ec0a03f515814011a091adc97df3b52c"
+				timeout="60000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Closebrowser.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.673"
+			timeRelativeToTestModuleStartTime="00:02.673"
+			timeWallClock="16:38:06"
+			time="00:02.673"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'CochlearImplantSoundProcessorNucleus1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Cochlear\ Implant\ Sound\ Pr']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus1.Self"
+				id="30f117dd26784e83a1d6640e2fbe94b7"
+				timeout="30000"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Closebrowser.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

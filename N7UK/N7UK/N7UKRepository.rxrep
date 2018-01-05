@@ -1,0 +1,2231 @@
+﻿<repository
+id="9e05b9d6-c181-4832-b9ab-fe223d931929"
+name="N7UKRepository"
+rxversion="8.0">
+	<codegen
+	classname="N7UKRepository"
+	namespace="N7UK">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="fc792e7a-1173-4113-8595-5843d9e247a1"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="f79cd6f4-d625-4f09-a993-064eeceab6ff"
+		isrooted="True"
+		name="CochlearImplantSoundProcessorNucleus"
+		refimgid="0499cf3d-a526-4c3d-8c8b-9cdc92c9939f"
+		refpath="/dom[@domain='www.hearyourway.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="c73aefc0-102d-4ea3-8032-eb083bdbd1ec"
+			name="HeadHyw"
+			refimgid="178347d1-f54c-4a0d-ba58-724cb34fc5dd"
+			refpath="/dom[@domain='www.hearyourway.com']//img[#'head_hyw']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//img[#'head_hyw']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="8925174e-5291-40ba-a1a8-253b626676a3"
+			name="HttpWwwHearyourwayComWpsWcmConne"
+			refimgid="7d64b8c4-9a62-4538-9180-70ce4a14afeb"
+			refpath="/dom[3]//header[#'header']/nav/div/div[1]/div/a[@href='http://www.cochlear.com/uk/home']/img[@alt='']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//header[#'header']/nav//a[@href~'^http://www\.cochlear\.com/u']/img[@alt='']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="b62ae920-d859-4972-8c47-b2a31d856aff"
+			name="HearNowAndAlways"
+			refimgid="978aac3b-6af2-4046-a19f-951f3ec62744"
+			refpath="/dom[3]//header[#'header']/nav/div/div[1]/div/span/img[@title='']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//header[#'header']/nav/div/div[1]/div/?/?/img[@title='']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="189e3d75-1586-45cd-88f1-3a2b09714dbc"
+			name="DownloadBrochure"
+			refimgid="d9adb8b3-bc26-4ece-9cda-8308cbbf6507"
+			refpath="/dom[3]//header[#'header']/div/div/a[@innertext='Download Brochure']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//header[#'header']//a[@innertext='Download Brochure']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="ec0a03f5-1581-4011-a091-adc97df3b52c"
+			name="ClinicFinder"
+			refimgid="6ddf9006-dc32-4182-809b-98e003dae59d"
+			refpath="/dom[3]//header[#'header']/div/div/a[@innertext='Clinic Finder']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//header[#'header']//a[@innertext='Clinic Finder']
+			</item>
+			<folder
+			addcaps="unknown,webelement,ultag"
+			capname="ultag"
+			id="58b9fe4f-72bb-462d-b846-2c6891fd6178"
+			isrooted="True"
+			name="UtilityNav"
+			refpath="/dom[3]//header[#'header']/nav/div/div[2]/ul"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="07e953a7-7de5-48ec-9c0d-9411754ccc9d"
+				name="Adult"
+				refimgid="71019d15-b69f-4cf9-a2b6-38f8c689432b"
+				refpath="/dom[3]//header[#'header']/nav/div/div[2]/ul/li[1]/a[@innertext='Adult']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Adult']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="5d31619e-1100-4db4-b5cf-b410ea140eb3"
+				name="Parent"
+				refimgid="6c70ad4e-a409-4fba-b807-059c8e38c54d"
+				refpath="/dom[3]//header[#'header']/nav/div/div[2]/ul/li[2]/a[@innertext='Parent']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Parent']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="fb9aa575-439a-45b3-b268-b4be04b360f4"
+				name="Upgrade"
+				refimgid="75f57947-e8aa-4460-afa7-750e0e7027b3"
+				refpath="/dom[3]//header[#'header']/nav/div/div[2]/ul/li[3]/a[@innertext='Upgrade']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Upgrade']
+				</item>
+				<basepath>
+					/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,h5tag"
+			capname="h5tag"
+			id="e80edeaf-2616-484d-8b9a-b5410dd92068"
+			name="References"
+			refimgid="b3c9dfca-c5ac-41d4-9f9d-0e15b88b50d5"
+			refpath="/dom[4]/body/div[6]/footer/div/section[1]/div/h5[@innertext='References']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/?/?/h5[@innertext='References']
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="f8249d2c-aab5-478c-b7ca-98a0746a85f3"
+			name="AppleIncCompatibleHearingDevicesI"
+			refimgid="8e47b0f8-17ba-4550-ae7b-eb1126e5e834"
+			refpath="/dom[4]/body/div[6]/footer/div/section[1]/div/ul/li[@innertext='Apple Inc. ‘Compatible hearing devices’ [Internet]. Apple support. 2017 [cited 24 February 2017]. Available from: .']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/?/?/ul/li[@innertext~'^Apple\ Inc\.\ &#8216;Compatible\ he']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="68a0a371-b8d3-432a-a337-e1ec8d9faed2"
+			isrooted="True"
+			name="FluidContainer"
+			refpath="/dom[4]//tag[#'content']/div"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="6694745f-ffd1-4cfa-9657-20ef28a31593"
+				name="HttpWwwHearyourwayComWpsWcmConne1"
+				refimgid="74dc7fde-ef92-439b-8fbe-d30a4c987049"
+				refpath="/dom[4]//tag[#'content']/div/section[3]/a[@href='http://www.hearyourway.com/wps/wcm/connect/uk/n7/adults']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]/a[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="0484acf3-1a9d-4401-ba3b-3b302a8fb54e"
+				name="HttpWwwHearyourwayComWpsWcmConne2"
+				refimgid="c28c9376-89c9-4ce3-986a-8ec4322e0d93"
+				refpath="/dom[4]//tag[#'content']/div/section[3]/a[@href='http://www.hearyourway.com/wps/wcm/connect/uk/n7/parents']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]/a[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="9797bc8e-03b9-4953-96ee-9b3ea6abd90f"
+				name="HttpWwwHearyourwayComWpsWcmConne3"
+				refimgid="8a9551c0-c5fa-4713-818e-531b7e8d6f7a"
+				refpath="/dom[4]//tag[#'content']/div/section[3]/a[@href='http://www.hearyourway.com/wps/wcm/connect/uk/n7/upgrade']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]/a[3]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="0a5e4b6b-1a0e-4fd4-8adf-0f33006908b3"
+				name="OuterNoGradientHiddenXs"
+				refimgid="78e637ae-71e9-4b48-a992-988e736173c3"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="a590efe5-1b00-4fef-9014-755977da58a1"
+				name="ProvenToOptimiseHearingPerformance"
+				refimgid="3660d695-8cb7-4a22-91b5-c9f656decce6"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div[2]/div/div/div/div[1]/h2[@innertext='Proven to optimise hearing performance']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div[2]/div/div/div/div[1]/h2[@innertext~'^Proven\ to\ optimise\ hearin']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="c5747efd-b340-4167-8bfd-6c4bd64053c6"
+				name="SpanTagAdult"
+				refimgid="62500afd-90d7-412b-89c2-9dacc2f8b87c"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]/a[@href='http://www.hearyourway.com/wps/wcm/connect/uk/n7/adults']/h3/span[@innertext=' Adult']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]//span[@innertext=' Adult']
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="725029b4-b742-4f1c-b018-b35538d0169c"
+				name="ProvenToOptimiseYourChildsHearingP"
+				refimgid="eea5d4ac-5ea1-454d-9a83-b2a9a2b61d3d"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/div[2]/div/div/div/div[1]/h2[@innertext='Proven to optimise your child’s hearing performance']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/div[2]/div/div/div/div[1]/h2[@innertext~'^Proven\ to\ optimise\ your\ c']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="f0c63096-5a29-467b-bb7d-b7134c539069"
+				name="SpanTagParent"
+				refimgid="e13b81d3-9ac6-4954-aa2c-55847f1e5621"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]/a[@href='http://www.hearyourway.com/wps/wcm/connect/uk/n7/parents']/h3/span[@innertext=' Parent']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]//span[@innertext=' Parent']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="ae2bd02f-dad3-4ee6-b2b3-61aeaea80a10"
+				name="OuterNoGradientHiddenXs1"
+				refimgid="8876a933-f5e0-4af4-902f-655a17513839"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/div[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/div[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,sectiontag"
+				capname="sectiontag"
+				id="657222be-3bca-4243-8ca5-dc03b50c48bc"
+				name="ColorDarkgreyWhiteContentAreaSmart"
+				refimgid="02b85be8-6749-46d9-8ec0-29c9a30b2696"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="fdaf0eae-ace1-47b6-bfd4-949508f426c1"
+				name="TakeControlWithTheNucleusSmartApp"
+				refimgid="39fc8839-7386-46bd-9022-287fea568f7f"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'app_text']/div/div[1]/h2[@innertext='Take control with the Nucleus Smart App']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div//h2[@innertext~'^Take\ control\ with\ the\ Nuc']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="097ce1d7-0b3c-4da9-86fd-313fea4422ce"
+				name="SpanTagUpgrade"
+				refimgid="53982d41-23f6-45ca-8da9-acb7f68a479d"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]/a[@href='http://www.hearyourway.com/wps/wcm/connect/uk/n7/upgrade']/h3/span[@innertext=' Upgrade']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]//span[@innertext=' Upgrade']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="26524bb1-4cfc-45d3-85aa-accdc34cdbe0"
+				name="HttpWwwHearyourwayComWpsWcmConne"
+				refimgid="021a3c8f-ca44-42c5-8c80-b3b4d74a7291"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[1]/div/div/div[1]/div[2]/p[1]/img[@title='']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[1]/div/div/div[1]/div[2]/p[1]/img[@title='']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="59a11bf7-29f0-4cec-b51f-591146b528cc"
+				name="FaFaAngleDownButton"
+				refimgid="9b7e3773-31fc-48c3-a37f-809e383b0325"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[2]/div/div/a/span"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[2]//a[@href~'^http://www\.hearyourway\.co']/span
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="c85b5a29-2285-49fd-b012-7a5cbbd4a89b"
+				name="Nucleus7IsTheWorldsFirstAndOnlyM"
+				refimgid="6065cf6d-a803-4e90-8290-3b842451be0e"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/div/h2[@innertext='Nucleus 7 is the world''s first and only Made for iPhone cochlear implant sound processor']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/?/?/h2[@innertext~'^Nucleus\ 7\ is\ the\ world''s\ ']
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="f689245b-dc94-4468-85b9-48914d493e87"
+				name="TakeControlWithTheNucleusSmartApp1"
+				refimgid="6c5d5319-fe12-4dce-88a3-ff2020f54555"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[5]/div/div/div[1]/div/div[1]/h2[@innertext='Take control with the Nucleus Smart App']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[5]/div/div/div[1]/div/div[1]/h2[@innertext~'^Take\ control\ with\ the\ Nuc']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="09560555-1309-40a7-9f53-4daad849e215"
+				name="DownloadTheApp"
+				refimgid="687f055e-22e4-4537-be1e-6d8162d14bce"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[5]/div/div/div[1]/div/a[@innertext='Download the App']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[5]/div/div/div[1]/?/?/a[@innertext='Download the App']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="997d6eaf-bce1-4ba6-b65e-4253a4676053"
+				name="Nucleus7TheSmallestAndLightestBe"
+				refimgid="a4e32b60-d2bc-4aef-9b35-f12b8d269353"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/div[1]/img[@alt~'^Nucleus\ 7\ -\ the\ smallest\ ']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/?/?/img[@alt~'^Nucleus\ 7\ -\ the\ smallest\ ']
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="aef3be6d-1b31-4893-90a8-2049ee2ee005"
+				name="At20PercentSmallerThanAMajorCompet"
+				refimgid="2760b032-0b3a-4054-a5e2-f3ee6142fd3d"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/div[2]/div/div/div/div/h2[@innertext='At 20% smaller than a major competitor, Nucleus 7 is the smallest and lightest behind-the-ear Sound Processor available today.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/div[2]/div/div/div/?/?/h2[@innertext~'^At\ 20%\ smaller\ than\ a\ maj']
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="c31b2804-c404-4d73-a3a9-8f07e4a52d91"
+				name="ARicherBimodalHearingExperience"
+				refimgid="0d580ee7-91f2-4f5c-bc07-5086560e040f"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[9]/div[2]/div/div/div/div[1]/h2[@innertext='A richer bimodal hearing experience']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[9]/div[2]/div/div/div/div[1]/h2[@innertext~'^A\ richer\ bimodal\ hearing\ ']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="8ba5c8ea-4771-4157-bc92-088bce156d96"
+				name="DivTagRow"
+				refimgid="213cc825-fce3-40c5-b275-f1be70a920eb"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[10]/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[10]/div[2]/div
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="467d2a8c-0f0d-4609-b714-c769bafd3b52"
+				name="BtnPlay"
+				refimgid="7d3a1c6a-d46e-48d9-8415-89ab19a4e396"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]/div/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]/div/div[2]/div
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="51dee1ba-9970-42ed-963c-3d8380a8d22b"
+				name="HttpWwwHearyourwayComWpsWcmConne4"
+				refimgid="338199ee-d136-4807-b300-42f054c3f9f0"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]/div/div[2]/img[@title='']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[3]//img[@title='']
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="e56b11eb-4daf-4301-a9a8-f887a7b662fe"
+				name="TheWorldsFirstAndOnlyMadeForIPhon"
+				refimgid="b2b2ce03-541f-4a83-9654-b11ed0fb8687"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/div/h2[@innertext='The world’s first and only Made for iPhone cochlear implant sound processor']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/?/?/h2[@innertext~'^The\ world&#8217;s\ first\ and\ onl']
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="abe2f6f4-38a8-4ffc-a496-3cfe6545cec0"
+				name="Nucleus7IsTheSmallestAndLightestB"
+				refimgid="3dc62c94-d7fe-4746-a364-33ef66df34b6"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[5]/div[2]/div/div/div/div/h2[@innertext='Nucleus 7 is the smallest and lightest behind-the-ear Sound Processor, making it more comfortable for even the smallest of ears.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[5]/div[2]/div/div/div/?/?/h2[@innertext~'^Nucleus\ 7\ is\ the\ smallest']
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="e04c7d70-eadd-49dd-877e-4d8e12c5a42f"
+				name="AChoiceOfWearingOptionsToFitYour"
+				refimgid="80e7f8ec-9b6a-4347-a43a-334b87f627b4"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div[2]/div/div/div/div[1]/h2[@innertext='A choice of wearing options to fit your child’s personality and lifestyle']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div[2]/div/div/div/div[1]/h2[@innertext~'^A\ choice\ of\ wearing\ optio']
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="3b00f3ea-6ee9-47be-a1ac-07bb9901e704"
+				name="MakeASplashWithAquaPlus"
+				refimgid="796f541b-8b3a-4618-8c9e-e624e96cee70"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[8]/div[2]/div/div/div/div/h2[@innertext='Make a splash with Aqua+']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[8]/div[2]/div/div/div/?/?/h2[@innertext='Make a splash with Aqua+']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="64e4e868-096f-4da1-8e4e-e5bb9da6e21a"
+				name="DivTagRow1"
+				refimgid="d8b73c67-d7ee-4deb-9c77-286feec466cc"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[9]/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[9]/div[2]/div
+				</item>
+				<item
+				addcaps="unknown,webelement,h1tag"
+				capname="h1tag"
+				id="4969dcfa-a0b6-460a-aeb6-df81aeafe580"
+				name="MeetNucleus7TheWorldsFirstAndOnl"
+				refimgid="6a1f0f64-e3b8-4866-9319-396821b3d505"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[1]/div/div/div[1]/div[2]/h1[@innertext='Meet Nucleus 7 – the world’s first and only cochlear implant sound processor that’s Made for iPhone.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[1]/div/div/div[1]/?/?/h1[@innertext~'^Meet\ Nucleus\ 7\ &#8211;\ the\ worl']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="ce8b9085-ea91-419e-9fef-5448bdbf0583"
+				name="Nucleus7CombinesProvenHearingPerfor"
+				refimgid="d30ebda1-76b6-462f-b811-84061b404976"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[1]/div/div/div[1]/div[2]/p[5]/span[@innertext='Nucleus 7 combines proven hearing performance with comfort and wearability for even the smallest of ears. Plus, thanks to Made for iPhone technology, it’s easier than ever to monitor and manage your child’s hearing.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[1]/div/div/div[1]/div[2]/p[5]/span[@innertext~'^Nucleus\ 7\ combines\ proven']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="425b043b-d5ef-4dee-8b84-673b1ec47835"
+				name="ThanksToMadeForIPhoneTechnologyWi"
+				refimgid="fa2b5c3e-0480-4d99-8751-bf7ec980cbea"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/div/p[@innertext='Thanks to Made for iPhone technology, with the Nucleus Smart App, you can easily monitor important aspects of your child’s sound processor usage.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/?/?/p[@innertext~'^Thanks\ to\ Made\ for\ iPhone']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="f7686cd5-501d-4041-a31f-537ff2c3f2ec"
+				name="YouCanAlsoCheckTheStatusOfTheirD"
+				refimgid="aa314731-c72c-4469-ace8-f8c43114b501"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/div/p[@innertext~'^You\ can\ also\ check\ the\ status\ of\ their\ device,\ including\ battery\ life,\ so\ you\ can\ feel\ confident\ that\ their\ equipment\ is\ functioning\ properly\.\ Plus,\ the\ Nucleus\ Smart\ App\ can\ even\ help\ you\ locate\ a\ missing\ processor,\ helping\ to\ minimise\ any\ time\ your\ child\ spe']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/?/?/p[@innertext~'^You\ can\ also\ check\ the\ st']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="1b986007-293c-44a0-a286-63d481407a65"
+				name="MadeForIPodIPhoneIPad"
+				refimgid="d27dceb8-9522-4cde-a8bf-a7b819e9cefd"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/div/div/img[@title='']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/div/div/img[@title='']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="64970fc8-f15d-4782-b680-bd877f9a9edd"
+				name="HearingInNoiseIsTheMostChallenging"
+				refimgid="bce525f3-1e7d-443f-8a08-376724ed673c"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/div[2]/div/div/div/div[2]/p[@innertext='Hearing in noise is the most challenging listening situation for any child. The Cochlear Nucleus 7 Sound Processor features the world’s most advanced sound management system - SmartSound iQ with SCAN technology.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/div[2]/div/div/div/div[2]/p[@innertext~'^Hearing\ in\ noise\ is\ the\ m']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="2d589a7d-082d-4614-9cd0-6b8c23860d1b"
+				name="FromTheParkToSchoolToANoisyPlayd"
+				refimgid="f6226189-8ba5-4068-828f-8d56acd620e4"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/div[2]/div/div/div/div[2]/p[@innertext='From the park to school to a noisy playdate: you can be confident that the SCAN scene classifier is designed to automatically make hundreds of decisions each day to optimise your child’s hearing performance every day.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[6]/div[2]/div/div/div/div[2]/p[@innertext~'^From\ the\ park\ to\ school\ t']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="7815a7c1-4209-41ea-a285-499b1adfdb7c"
+				name="AvailableIn6ColourOptionsTheNucle"
+				refimgid="81f924ee-e282-4762-a0ca-a83bcca5f73c"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div[2]/div/div/div/div[2]/p[@innertext='Available in 6 colour options, the Nucleus 7 Sound Processor offers a wide range of wearing and retention options - even for small ears.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div[2]/div/div/div/div[2]/p[@innertext~'^Available\ in\ 6\ colour\ opt']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="06eebe75-0c4d-451b-b892-9943ef4a6ae9"
+				name="FromThePlaygroundToTheSportsField"
+				refimgid="a8587a37-16ee-4852-8ccb-bd87e739756a"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div[2]/div/div/div/div[2]/p[@innertext='From the playground to the sports field, you can feel confident that your child’s sound processor is safe and secure.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div[2]/div/div/div/div[2]/p[@innertext~'^From\ the\ playground\ to\ th']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="ec609c8b-7581-4152-83bc-d9c03eea401c"
+				name="N7AquaPlus"
+				refimgid="8e89ab3f-5826-4dc3-9729-75c316eb119a"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[8]/div[2]/div/div/div/div/center/img[@title='N7-Aqua-Plus']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[8]/div[2]//center/img[@title='N7-Aqua-Plus']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="0af50d19-9f52-4c54-97cc-4058228a89fd"
+				name="WithTheHighestWaterResistanceRating"
+				refimgid="5a438e55-090e-4cfb-aeba-2bea20b2a341"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[8]/div[2]/div/div/div/div/p[@innertext='With the highest water resistance rating available in a behind-the-ear sound processor, the Nucleus 7 Sound Processor is splashproof and when worn with Aqua+* is waterproof, so your child can enjoy their favourite water activities.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[8]/div[2]/div/div/div/?/?/p[@innertext~'^With\ the\ highest\ water\ re']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="5b71c6e2-cd6a-4f25-b735-23454336c397"
+				name="SomePTag"
+				refimgid="18f27860-d44e-4b96-b956-b0ae0e3342bb"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[8]/div[2]/div/div/div/div/p[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[8]/div[2]/div/div/div/div/p[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,h1tag"
+				capname="h1tag"
+				id="9de90d87-384e-4df4-a1db-5f10b17b77ca"
+				name="UpgradeToNucleus7TheWorldsFirst"
+				refimgid="9e25e392-f3ea-493b-94f5-234111427715"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[1]/div/div/div[1]/div[2]/h1[@innertext='Upgrade to Nucleus 7 - the world''s first and only cochlear implant sound processor that''s Made for iPhone.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[1]/div/div/div[1]/?/?/h1[@innertext~'^Upgrade\ to\ Nucleus\ 7\ -\ th']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="3afe54cb-2d39-489b-9221-790297eeb3cb"
+				name="OurSmallestAndLightestBehindTheEar"
+				refimgid="081a126f-14e3-4faf-aaf4-6b20fcd84bab"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[1]/div/div/div[1]/div[2]/p[5]/span[@innertext='Our smallest and lightest behind-the-ear hearing solution combines comfort and wearability with proven hearing performance.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[1]/div/div/div[1]/div[2]/p[5]/span[@innertext~'^Our\ smallest\ and\ lightest']
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="2d9aaebc-e2b1-40b5-8b97-2658c106af5a"
+				name="LookingToUpgrade"
+				refimgid="38ab2098-80b4-46dd-aad9-87bc84d98102"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/div[1]/h2[@innertext='Looking to upgrade?']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/div[1]/h2[@innertext='Looking to upgrade?']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="10f8c5c0-25ba-444a-a1fe-551bdbcd98bf"
+				name="WhetherYouPreferABehindTheEarOrA"
+				refimgid="b6bd0a57-fd38-4575-851c-7389be25f2c7"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/div[2]/p[@innertext='Whether you prefer a behind-the-ear or an off-the-ear sound processor, Cochlear has a choice of sound processors to fit your lifestyle and your wearing preference.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/div[2]/p[@innertext~'^Whether\ you\ prefer\ a\ behi']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="480b06cd-0871-4b51-b7e6-c489ede76914"
+				name="COMPARENUCLEUS7TOYOURSOUNDPROCESSO"
+				refimgid="a286a9ae-d7a2-4b7d-ae54-001af0098858"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/div[3]/a[@innertext='COMPARE NUCLEUS 7 TO YOUR SOUND PROCESSOR']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/div[3]/a[@innertext~'^COMPARE\ NUCLEUS\ 7\ TO\ YOUR']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="6d6f8526-7686-47d4-a310-2b5507a3a196"
+				name="ATagRegisterToReceiveUpgradeInforma"
+				refimgid="3797ac66-3294-4767-8cd7-5c05e2ea8d2f"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/div[4]/span[2]/a[@innertext=' Register to receive upgrade information ']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[4]/div[2]/div/div/div/div[4]/span[2]/a[@innertext~'^\ Register\ to\ receive\ upgr']
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="a47b63a9-da41-41d7-b5f3-7a5af2a6552d"
+				name="Nucleus7IsTheWorldsFirstAndOnlyM1"
+				refimgid="41805f78-5274-46c8-9af5-7e3a929477e7"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[5]/div[2]/div/div/div/div/h2[@innertext='Nucleus 7 is the world’s first and only Made for iPhone cochlear implant sound processor']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[5]/div[2]/div/div/div/?/?/h2[@innertext~'^Nucleus\ 7\ is\ the\ world&#8217;s\ ']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="6217dcdc-f2e2-4756-8a81-1c094eba6dae"
+				name="ThanksToMadeForIPhoneCompatibility"
+				refimgid="852f54f2-53de-4e1c-924b-281c4fb7c381"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[5]/div[2]/div/div/div/div/p[@innertext='Thanks to Made for iPhone compatibility, you can connect to the people you love as you stream phone calls, video, music and entertainment directly to your Nucleus 7 Sound Processor.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[5]/div[2]/div/div/div/?/?/p[@innertext~'^Thanks\ to\ Made\ for\ iPhone']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="7dc2c62e-9cb3-46ce-bed2-d6b220d19a6c"
+				name="MadeForIPodIPhoneIPad1"
+				refimgid="b8d77b3c-d315-4088-baab-f7dc633202af"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[5]/div[2]/div/div/div/div/div/img[@title='']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[5]/div[2]/div/div/div/div/div/img[@title='']
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="f592ff7b-72a6-4ce3-92c2-6c5d4ca188ff"
+				name="Nucleus7IsTheSmallestAndLightestB1"
+				refimgid="a3b03a59-3e3a-49a2-b26b-426423d829e3"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div/div/div/div[4]/h2[@innertext='Nucleus 7 is the smallest and lightest behind-the-ear sound processor with up to 50% more battery life']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div/div/div/div[4]/h2[@innertext~'^Nucleus\ 7\ is\ the\ smallest']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="d5937104-6695-498c-b2ee-66666a7aa8de"
+				name="At25PercentSmallerAnd24PercentLight"
+				refimgid="11427bc8-14f8-4285-879c-3a4f6e2a84ec"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div/div/div/div[4]/p[@innertext='At 25% smaller and 24% lighter than its predecessor, the Nucleus 7 Sound Processor provides a more comfortable experience for even the smallest ears.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div/div/div/div[4]/p[@innertext~'^At\ 25%\ smaller\ and\ 24%\ li']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="43a1f137-5256-4bfc-bbbe-9c3d865f035c"
+				name="AndThanksToNewChipTechnologyYouC"
+				refimgid="441c01c2-abbc-41f1-a834-ec468f62035c"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div/div/div/div[4]/p[@innertext='And thanks to new chip technology, you can benefit from up to 50% more battery life and enjoy a longer active day.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[7]/div/div/div/div[4]/p[@innertext~'^And\ thanks\ to\ new\ chip\ te']
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="995bb5dd-6423-4eb0-bb5b-1a07edcb3fc4"
+				name="ProvenToOptimiseHearingPerformance1"
+				refimgid="7ec60dd3-cb00-406c-966a-bd23e940467c"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[8]/div[2]/div/div/div/div[1]/h2[@innertext='Proven to optimise hearing performance']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[8]/div[2]/div/div/div/div[1]/h2[@innertext~'^Proven\ to\ optimise\ hearin']
+				</item>
+				<item
+				addcaps="unknown,webelement,h2tag"
+				capname="h2tag"
+				id="4611a859-ab7c-4aeb-b6d7-f60bfbe30bd1"
+				name="ARicherBimodalHearingExperience1"
+				refimgid="c7dae8dd-419c-45ed-bb4c-02a12f2a148e"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[10]/div[2]/div/div/div/div[1]/h2[@innertext='A richer bimodal hearing experience']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[10]/div[2]/div/div/div/div[1]/h2[@innertext~'^A\ richer\ bimodal\ hearing\ ']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="0de59278-a54b-4b59-bb08-6389349fb60f"
+				name="WithANucleus7SoundProcessorAndAC"
+				refimgid="475ce09b-f160-45ff-a731-4f3baff07a81"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[10]/div[2]/div/div/div/div[2]/p[@innertext='With a Nucleus 7 Sound Processor and a compatible Made for iPhone hearing aid, you can control and stream sound directly to both ears like never before for a richer hearing experience.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[10]/div[2]/div/div/div/div[2]/p[@innertext~'^With\ a\ Nucleus\ 7\ Sound\ Pr']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="10d26554-6970-4ce9-9bba-f10a00bdff08"
+				name="DivTagRow2"
+				refimgid="f8c6810b-c835-4aa4-971f-2419437e2928"
+				refpath="/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[11]/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div/section[11]/div[2]/div
+				</item>
+				<basepath>
+					/dom[@domain='www.hearyourway.com']//tag[#'content']/div
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="7d8c4dd1-8815-4d0e-b2b4-a3105f9a3484"
+			name="PTagC2017CochlearLtdAllRightsRese"
+			refimgid="2dca000e-9393-4ac5-9b01-4068434b5c8a"
+			refpath="/dom[6]//section[#'content-footer']/div/p[@innertext='© 2017 Cochlear Ltd. All rights reserved.']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/p[@innertext~'^&#169;\ 2017\ Cochlear\ Ltd\.\ All\ ']
+			</item>
+			<item
+			addcaps="unknown,webelement,h3tag"
+			capname="h3tag"
+			id="4fc44ff1-e06b-4ee5-b26f-e1846edc58ca"
+			name="FollowUsOnSocialMedia"
+			refimgid="eff11efc-c5dc-49b3-a623-1bae0f6e6302"
+			refpath="/dom[6]//section[#'content-footer']/div/div/h3[@innertext='Follow us on social media']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//section[#'content-footer']//h3[@innertext='Follow us on social media']
+			</item>
+			<folder
+			addcaps="unknown,webelement,ultag"
+			capname="ultag"
+			id="abda6983-0bca-47fa-b089-d3ed06ff7e2e"
+			isrooted="True"
+			name="ListInlineListUnstyledSocialLinks"
+			refpath="/dom[6]//section[#'content-footer']/div/div/ul"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="e65dffc2-70fb-44ef-9248-98d54eae0d31"
+				name="FaFaFacebookFaSocialCircular"
+				refimgid="116ef6f4-f869-43dd-9ecb-2d08acf5e476"
+				refpath="/dom[6]//section[#'content-footer']/div/div/ul/li[1]/a[@href='https://www.facebook.com/cochlearuk']/span"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[1]/?/?/span
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="8f5ab9d0-9586-41ac-9d44-8e094e99c82f"
+				name="FaFaTwitterFaSocialCircular"
+				refimgid="64bdd038-d9e2-406d-b2f7-e04dde66cb82"
+				refpath="/dom[6]//section[#'content-footer']/div/div/ul/li[2]/a[@href='https://twitter.com/CochlearUK']/span"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[2]/?/?/span
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="a2f25246-1e31-49bc-9fe0-c7490ea47f1b"
+				name="FaFaYoutubeFaSocialCircular"
+				refimgid="37917cc1-25b6-4a93-a380-b15f7eaadd00"
+				refpath="/dom[6]//section[#'content-footer']/div/div/ul/li[3]/a/span"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[3]/?/?/span
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="8417b7a7-8f29-4569-b233-fbed17fa04fc"
+				name="FaFaLinkedinFaSocialCircular"
+				refimgid="e06141e8-c586-4bb1-9214-5d4559285f17"
+				refpath="/dom[6]//section[#'content-footer']/div/div/ul/li[4]/a[@href='https://www.linkedin.com/company/cochlear']/span"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[4]/?/?/span
+				</item>
+				<basepath>
+					/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul
+				</basepath>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,ultag"
+			capname="ultag"
+			id="50e8da36-04de-46e5-b77e-69a45f217d24"
+			isrooted="True"
+			name="ListInlineListUnstyledFooterLinks"
+			refpath="/dom[6]//section[#'content-footer']/div/ul"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="2d7997f8-2a39-4ff3-bd5d-9ff010a03dae"
+				name="CookiePolicy"
+				refimgid="154e86fa-a94c-45fc-930e-842d4b3bbfa2"
+				refpath="/dom[6]//section[#'content-footer']/div/ul/li[1]/a[@innertext='Cookie Policy']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//section[#'content-footer']/div/ul/?/?/a[@innertext='Cookie Policy']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="84418671-ffe1-4cf5-982f-74724ae6bff1"
+				name="PrivacyPolicy"
+				refimgid="ba4e4eb9-657e-4c85-bb70-b39b1dcfa43f"
+				refpath="/dom[6]//section[#'content-footer']/div/ul/li[2]/a[@innertext='Privacy Policy']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//section[#'content-footer']/div/ul/?/?/a[@innertext='Privacy Policy']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="b9f72bf4-e010-4a32-a03e-6be931840472"
+				name="TermsOfUse"
+				refimgid="82b611dc-9b06-47d7-9adf-c7dae6d93984"
+				refpath="/dom[6]//section[#'content-footer']/div/ul/li[3]/a[@innertext='Terms of Use']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//section[#'content-footer']/div/ul/?/?/a[@innertext='Terms of Use']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="ba50aeaf-524e-4e8e-b2aa-7effc358c839"
+				name="ATagBlank"
+				refimgid="9dfad41f-b299-47be-8916-64978272ebfd"
+				refpath="/dom[6]//section[#'content-footer']/div/ul/li[4]/a[@innertext='www.cochlear.com/uk']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//section[#'content-footer']/div/ul/?/?/a[@innertext='www.cochlear.com/uk']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="cca0f23e-fba3-4708-a66f-559b0248e016"
+				name="SomeLiTag"
+				refimgid="97ba6b68-af08-4026-9d66-1b6c36a19f6a"
+				refpath="/dom[@domain='www.hearyourway.com']//section[#'content-footer']/div/ul/li[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//section[#'content-footer']/div/ul/li[2]
+				</item>
+				<basepath>
+					/dom[@domain='www.hearyourway.com']//section[#'content-footer']/div/ul
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,h2tag"
+			capname="h2tag"
+			id="cedcc0ac-fa1e-43e3-afdc-0c8631258478"
+			name="RequestABrochure"
+			refimgid="64e43ecb-f39c-436f-a801-25dddecc5178"
+			refpath="/dom[@domain='www.hearyourway.com']//section[#'formSection']/div/div[1]/h2[@innertext='Request a brochure']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//section[#'formSection']//h2[@innertext='Request a brochure']
+			</item>
+			<item
+			addcaps="unknown,webelement,sectiontag"
+			capname="sectiontag"
+			id="2e8dc04d-0ca6-48cb-8d78-a9517349bff2"
+			name="SectionFootnotesColorGreyBrown"
+			refimgid="79820fb6-7da7-4062-b1c0-53d28569de95"
+			refpath="/dom[@domain='www.hearyourway.com' and @caption~'^Cochlear\ Implant\ Sound\ Pr' and @page='home' and @path='/wps/wcm/connect/uk/n7/home' and @browsername='Chrome']/body/div[6]/footer/div/section[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="ede755cf-d1cf-4a08-91d6-76154906f22e"
+			name="HttpsSupportAppleComEnAuHT201466"
+			refimgid="102e4350-a6db-4ec3-baa5-311c6a2bc889"
+			refpath="/dom[@domain='www.hearyourway.com' and @caption~'^Cochlear\ Implant\ Sound\ Pr' and @page='home' and @path='/wps/wcm/connect/uk/n7/home' and @browsername='Chrome']/body/div[6]/footer/div/section[1]/div/ul/li/a[@innertext~'^https://support\.apple\.com']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/?/?/ul/li[@innertext~'^Apple\ Inc\.\ &#8216;Compatible\ he']/a[@innertext~'^https://support\.apple\.com']
+			</item>
+			<item
+			addcaps="unknown,webelement,strongtag"
+			capname="strongtag"
+			id="c52ad3d7-4b5a-4ffd-888c-5a26da0f3041"
+			name="StrongTag6ColourOptionsToFitYourPe"
+			refimgid="d2d1b2d8-1a5c-480d-9be8-e5c62f51c813"
+			refpath="/dom[@domain='www.hearyourway.com']//section[#'section-image-carousel']/div/div[2]/div/div/p/span/strong[@innertext='6 colour options to fit your personality and lifestyle']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//section[#'section-image-carousel']/div/div[2]//span/strong[@innertext~'^6\ colour\ options\ to\ fit\ y']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="e2576fbd-6a5e-4267-818f-6a49ebb13646"
+			name="TypcnTypcnChevronLeft"
+			refimgid="a1539221-6fdd-46a1-9ebc-6ea9028d61d0"
+			refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-image']/div[3]/a[1]/span[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//div[#'carousel-image']/div[3]/a[1]/span[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="e3e11c86-321e-4d3b-9a2d-8d43accb761c"
+			name="TypcnTypcnChevronRight"
+			refimgid="6d777b09-89e3-408d-a2bf-c51ed14aae3c"
+			refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-image']/div[3]/a[2]/span[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//div[#'carousel-image']/div[3]/a[2]/span[1]
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="c1c9698f-078d-4b4f-9705-fff0a049b399"
+			isrooted="True"
+			name="CarouselImage"
+			refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-image']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="bdcf84ad-52d4-433b-87d1-791945da1366"
+				name="PausePlay"
+				refimgid="a82958b5-c0b9-49ce-9921-73a7903a7523"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-image']/div[1]/button"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-image']/?/?/button
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="bdc2965e-2dae-4ccf-8b9c-04f14bb82114"
+				name="SomeLiTag"
+				refimgid="02e5ba32-0fa8-415b-9117-ab5400c8bdd1"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-image']/div[1]/ol/li[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-image']/?/?/ol/li[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="a889898a-8728-43df-99af-57aa33be6a8d"
+				name="SomeLiTag1"
+				refimgid="3eecee87-8254-4f62-ae09-fdecbe7f66d2"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-image']/div[1]/ol/li[4]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-image']/?/?/ol/li[4]
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="b0e9a539-9b3f-42a0-ae80-60da68d118ce"
+				name="SomeLiTag2"
+				refimgid="72ab5299-2262-43b7-8cdf-1475993f96cf"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-image']/div[1]/ol/li[6]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-image']/?/?/ol/li[6]
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="78629925-81c4-465b-8d98-aed06edb0221"
+				name="SomeLiTag3"
+				refimgid="e2bba2dc-eca7-46c4-8c2a-29ed336a9a75"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-image']/div[1]/ol/li[3]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-image']/?/?/ol/li[3]
+				</item>
+				<basepath>
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-image']
+				</basepath>
+			</folder>
+			<folder
+			capname="oltag"
+			id="2633d5db-01a9-4432-9d34-c8b759a7cf21"
+			isrooted="True"
+			name="CarouselIndicators"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="5150e740-3e69-4f2f-b881-5a1fb2b50b89"
+				name="SomeLiTag"
+				refimgid="f5e4af41-3b14-48cf-8a72-e57412b21d0b"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[1]/ol/li[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/?/?/ol/li[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="ab5b243e-8708-46d3-a7c4-c60f454f369f"
+				name="SomeLiTag1"
+				refimgid="cdd092a4-8a49-477d-84f4-bdf33bf8cea5"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[1]/ol/li[3]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/?/?/ol/li[3]
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="5198e290-1658-478c-a282-6862e91955c0"
+				name="SomeLiTag2"
+				refimgid="350165c8-c66b-434f-95a9-11a8357841ee"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[1]/ol/li[4]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/?/?/ol/li[4]
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="0f234334-6e24-4d1a-b355-29f17cdc7053"
+				name="SomeLiTag3"
+				refimgid="cf39fcb6-6698-418b-b6d1-6a60ebc9cfb1"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[1]/ol/li[5]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/?/?/ol/li[5]
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="2a34fd0b-7932-43bf-ad43-0c4d05995e68"
+				name="SomeLiTag4"
+				refimgid="033c5cdc-7a17-445a-bf5a-a4dc1a0106f6"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[1]/ol/li[6]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/?/?/ol/li[6]
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="e1a02170-e68b-4cca-9b30-43ae10c93d92"
+				name="SomeLiTag5"
+				refimgid="c1e52b9e-2c97-46b4-8604-3bff069ac8bb"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[1]/ol/li[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/?/?/ol/li[1]
+				</item>
+				<basepath>
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/?/?/ol
+				</basepath>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="3630435d-25ed-4764-b4de-4551461f92a3"
+			isrooted="True"
+			name="CarouselVideo"
+			refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-video']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="10f027d8-e3eb-4ac9-941c-6813f2931808"
+				name="HttpWwwHearyourwayComWpsWcmConne1"
+				refimgid="ff701965-8674-4dd9-98f6-52aa032969c8"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[2]/div[1]/div/div[2]/img[@title='']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[2]/div[1]//img[@title='']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="951bb5d5-adbf-4d55-9061-58d89d3acf54"
+				name="BtnPlay"
+				refimgid="40c2ae7a-20f9-429c-af84-861bd7b7c3dc"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[2]/div[5]/div/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[2]/div[5]/div/div[2]/div
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="a963f39a-9bd2-4249-9eb5-333a09cda993"
+				name="TypcnTypcnChevronLeft1"
+				refimgid="65947545-90cf-4856-a7a1-d33906626b84"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[3]/a[1]/span[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[3]/a[1]/span[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="3a9d4f38-397d-45f7-8ca0-c6a142c821a3"
+				name="TypcnTypcnChevronRight1"
+				refimgid="a652ec57-0876-48df-9a85-4fed5a116ca0"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[3]/a[2]/span[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[3]/a[2]/span[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="3932edcf-47f8-43ea-a5eb-866de633936f"
+				name="BtnPlay1"
+				refimgid="2528214f-ea2c-47e3-ad5e-c12619f44434"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[2]/div[1]/div/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[2]/div[1]/div/div[2]/div
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="82060112-27ed-4978-9189-c7d98215b5ba"
+				name="BtnPlay2"
+				refimgid="772ccf86-3868-48f8-862b-6dd13a560de4"
+				refpath="/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[2]/div[2]/div/div[2]/div"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-video']/div[2]/div[2]/div/div[2]/div
+				</item>
+				<basepath>
+					/dom[@domain='www.hearyourway.com']//div[#'carousel-video']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,ultag"
+			capname="ultag"
+			id="d6d8ab30-f2c5-45de-8f46-3ed501c5fe7e"
+			isrooted="True"
+			name="SomeUlTag"
+			refpath="/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/div/ul"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="7e749801-2e26-4baf-b63c-314d4dd3c4f7"
+				name="CochlearLimitedD1190805CP1000Proce"
+				refimgid="0ffe7a68-a97f-4136-b93c-7e24e79bbb7a"
+				refpath="/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/div/ul/li[@innertext='Cochlear Limited. D1190805. CP1000 Processor Size Comparison. 2017, Mar; Data on file.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/?/?/ul/li[@innertext~'^Cochlear\ Limited\.\ D119080']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="9b1d9f2d-3b4a-4385-b3a4-b163efb12bd4"
+				name="MaugerSJWarrenCKnightMGoorevich"
+				refimgid="7ce78b7c-535e-49cc-a183-7455f8939d38"
+				refpath="/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/div/ul/li[@innertext='Mauger SJ, Warren C, Knight M, Goorevich M, Nel E. Clinical evaluation of the Nucleus 6 cochlear implant system: performance improvements with SmartSound iQ. International Journey Of Audiology. 2014, Aug; 53(8): 564-576. [Sponsored by Cochlear].']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/?/?/ul/li[@innertext~'^Mauger\ SJ,\ Warren\ C,\ Knig']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="4b4c0fc4-c3a7-47cf-9d71-98ea0106d486"
+				name="TheNucleus7SoundProcessorIsCompati"
+				refimgid="e5d47575-9ffa-42e4-be20-f017d6f353ae"
+				refpath="/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/div/ul/li[@innertext~'^The\ Nucleus\ 7\ Sound\ Processor\ is\ compatible\ with\ iPhone\ 8\ Plus,\ iPhone\ 8,\ iPhone\ 7\ Plus,\ iPhone\ 7,\ iPhone\ 6s\ Plus,\ iPhone\ 6s,\ iPhone\ 6\ Plus,\ iPhone\ 6,\ iPhone\ SE,\ iPhone\ 5s,\ iPhone\ 5c,\ iPhone\ 5,\ iPad\ Pro\ \(12\.9-inch\),\ iPad\ Pro\ \(9\.7-inch\),\ iPad\ Air\ 2,\ iPad\ Air,\ i']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/?/?/ul/li[@innertext~'^The\ Nucleus\ 7\ Sound\ Proce']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="efb094f3-95e3-47b9-8fed-9117a134a2be"
+				name="WithCompatibleBeltoneOrReSoundHeari"
+				refimgid="7a7d131e-737e-4d8a-9134-150df501787b"
+				refpath="/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/div/ul/li[@innertext='With compatible Beltone or ReSound hearing aids.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/?/?/ul/li[@innertext~'^With\ compatible\ Beltone\ o']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="a4efdddb-b365-4755-a19e-14840e294cc6"
+				name="AppleIncCompatibleHearingDevicesI"
+				refimgid="b8fa6880-4840-497e-b6b0-a322b10f021e"
+				refpath="/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/div/ul/li[@innertext='Apple Inc. ''Compatible hearing devices'' [Internet]. Apple support. 2017 [cited 24 February 2017]. Available from: .']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/?/?/ul/li[@innertext~'^Apple\ Inc\.\ ''Compatible\ he']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="ff6e8e89-5626-4c40-8efb-0a60db0fdbb5"
+				name="CochlearLimitedNucleus7SoundProces"
+				refimgid="1121068b-2174-41c0-9fd3-72aad3df0789"
+				refpath="/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/div/ul/li[@innertext='Cochlear Limited. Nucleus 7 Sound Processor User Guide. 2017, Jan; Data on file.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/?/?/ul/li[5]
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="1698825f-ec7c-4b7b-b7cd-4df39770f664"
+				name="CochlearLimitedNucleus7AquaPlusUse"
+				refimgid="864d4e75-0b7c-4e3a-b53b-ca2b75f1cd43"
+				refpath="/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/div/ul/li[@innertext='Cochlear Limited. Nucleus 7 Aqua+ User Guide. 2016, Oct; Data on file.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/?/?/ul/li[6]
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="05b52720-d586-4922-9f51-2af6f29f2239"
+				name="HttpsSupportAppleComEnGbHT201466"
+				refimgid="5b4b9daa-242a-4c06-80e6-bb71b0a56fb0"
+				refpath="/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/div/ul/li[@innertext~'^Apple\ Inc\.\ ''Compatible\ he']/a[@innertext~'^https://support\.apple\.com']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/?/?/ul/li[@innertext~'^Apple\ Inc\.\ ''Compatible\ he']/a[@innertext~'^https://support\.apple\.com']
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="d2472964-d939-46c7-8945-b2ef2a0e2ab3"
+				name="CochlearLimitedD1140877BatteryLife"
+				refimgid="b74085e0-4b27-4516-9a0e-3c210bafd7da"
+				refpath="/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/div/ul/li[@innertext='Cochlear Limited. D1140877. Battery Life and Power Consumption Comparison between CP1000, CP900 Series and CP810 Sound Processors. 2017, Mar; Data on file.']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/?/?/ul/li[@innertext~'^Cochlear\ Limited\.\ D114087']
+				</item>
+				<basepath>
+					/dom[@domain='www.hearyourway.com']/body/div[6]/footer/div/section[1]/?/?/ul
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="9bc83908-771c-40cf-ae34-09ec833a513b"
+			name="TypcnTypcnArrowUp"
+			refimgid="223a5eae-515d-4ba3-8d19-0927b34db1e0"
+			refpath="/dom[@domain='www.hearyourway.com']/body/div[6]/footer/a/span[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']/body/div[6]/?/?/a[@href~'^http://www\.hearyourway\.co']/span[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,sectiontag"
+			capname="sectiontag"
+			id="49a6c99e-821a-40c6-9f0b-c0685c2db88e"
+			name="ContentFooter"
+			refimgid="5ffc4522-f576-42e9-8e4a-662ec386ce40"
+			refpath="/dom[@domain='www.hearyourway.com']//section[#'content-footer']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//section[#'content-footer']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="ea47410e-8b01-4095-8f37-54ed48f9a5f0"
+			name="FindYourProcessor"
+			refimgid="9b8a02ad-651e-4493-88c4-7285472d17ea"
+			refpath="/dom[@domain='www.hearyourway.com']//div[#'img_smartapp']/div[2]/div[@innertext='Find your processor']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//div[#'img_smartapp']/?/?/div[@innertext='Find your processor']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="1a32b931-c879-4a90-b19c-ffc9b4bd1a34"
+			name="CheckSoundProcessorStatus"
+			refimgid="7a848e86-dcc1-48de-b863-9265e6e666bb"
+			refpath="/dom[@domain='www.hearyourway.com']//div[#'img_processor']/div[@innertext='Check sound processor status']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//div[#'img_processor']/div[@innertext~'^Check\ sound\ processor\ sta']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="87c2cdff-7a23-47e8-a58d-82dec86e677d"
+			name="PTagC2018CochlearLtdAllRightsRese"
+			refimgid="064b511f-4728-4b94-bcfc-e1ed5e05448d"
+			refpath="/dom[@domain='www.hearyourway.com']//section[#'content-footer']/div/p[@innertext='© 2018 Cochlear Ltd. All rights reserved.']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/p[@innertext~'^&#169;\ 2018\ Cochlear\ Ltd\.\ All\ ']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="78985632-45fb-4593-9252-0a1166860587"
+			name="ControlIndicator"
+			refimgid="875aabcd-3460-4b46-94e6-10ad6493ddb2"
+			refpath="/dom[@domain='www.hearyourway.com']//form[#'marketoForm']/div[1]/div/div[1]/div[2]/label/div"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//form[#'marketoForm']/div[1]/div/div[1]/?/?/label[@innertext~'^I\ am\ already\ a\ user\ of\ a\ ']/div
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="46e20000-699f-4f7a-9caa-541966614c36"
+			name="FirstName"
+			refimgid="fb40944e-1c8b-4e53-972d-ff21717ba021"
+			refpath="/dom[@domain='www.hearyourway.com']//input[#'FirstName']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//input[#'FirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="8fb4b3ba-0530-45e7-9c00-8b387ce8b55d"
+			name="LastName"
+			refimgid="1635b00a-a7c2-4722-8b4b-df5bcf41e49c"
+			refpath="/dom[@domain='www.hearyourway.com']//input[#'LastName']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//input[#'LastName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="65ef59c8-eeae-4890-b296-e4865b21e211"
+			name="Email"
+			refimgid="c0efc1f3-d3e1-4282-bbd5-4886308f0878"
+			refpath="/dom[@domain='www.hearyourway.com']//input[#'Email']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//input[#'Email']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="e865b0e7-223e-4a59-b86d-0bc145173a2b"
+			name="ControlIndicator1"
+			refimgid="348cc2dc-207d-4d63-9731-5088b0d939f4"
+			refpath="/dom[@domain='www.hearyourway.com']//form[#'marketoForm']/div[1]/div/div[7]/div/label/div"
+			searchtimeout="30000ms">
+				/dom[@domain='www.hearyourway.com']//form[#'marketoForm']/div[1]/div/div[7]/?/?/label[@innertext~'^By\ submitting\ this\ form\ I']/div
+			</item>
+			<basepath>
+				/dom[@domain='www.hearyourway.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="6f7dc230-7415-4012-8b03-5c3c5a338f15"
+		isrooted="True"
+		name="CochlearEuropeMiddleEastAfricaY"
+		refimgid="b2b983bc-5bbb-4f0e-8724-cc95d0614d62"
+		refpath="/form[@title~'^Cochlear\ Europe,\ Middle\ E']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^Cochlear\ Europe,\ Middle\ E']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALpSURBVDhPrZJrSFNhHMZXQSAEfchpLawM+9AX
+8UNgV8/O3KzNzVu70C5qU6GgIIMiFBIC6aIRSIF3t5zRPUzTUqP71szNykvmdo7QCAxJym06tp3z
+dDyu+hB+64EH3g//3+/9v/AK/mu+qNVxtDEnfUorv0RrFV2UWu6g82Uf6DxZN5UnrfPkkqbx/P0b
+YuP/xqPOSqENuaO0+gDog/tBF2SBA0HlZoLKIbmzJEjlZZlj439jV++Me56dvu1jgazJq5EHlhN4
+VWLGo5RM0AVkRgxdyvFK3e7yM2pfry4zNL4ILLeBSgxvNgGPknBOKYi0bxpiDS/Ybi25kNpczFQe
+VbAuJYGxU+V4a+vEg0eTbOvALPtmoBtU50lM35Fj7v4uzHfv9i/07nOH+4gdvGCrrfTh1o5SKKp1
+eCHfA3t7J87eDsBwNYicy0FUdMzi0+dJzNmPIPosA9GX+5jo64wQXhFiXpBsK7Un20qQ2lCEpoME
+7vZQPJx/JQhVbRAl9X409s3ii7MGrIME85YE6yQZ9p1ExguSrMUjm9rN2GwzQ3XRiIb+AA8qF1sT
+hLYuiNM3AphwWQC3jKuUayZYt1SxJLAUPU5qP4ylmlH/bCh6zOKH4VoABdwWp2zf0eXwYma4kodZ
+VybDDEnmI0OkhBeIrKb6jdeL8btl/Y14OjKD6gdzKGvy494rL4bft8I/bOAFjIuDnaQn7BCn84KN
+VlOZyGKKiKyFrMhahLRbJ5DXVYtjT26hou8xrvacxw93ISLubH517nYfM0jWLtiJFF6Q2KbbktCs
+r1pvMU0lWkz4WyMSG/SgXyr+vBtuCSKDZBNGNatRVbWSF/CBYEVii0Gb0GocE7YZQgkcLGzV49xN
+FcO4ZCx3a5QZIqfDTrEVlHRtjPo3wma9RthyyBffpse6Rh2+vlGEODAaHhT/5OHR2O9bLutbDgs5
+wd74Fp0y6Vp+oe95VmHEJVGF7WIi5MrYDmhWxUa5CAS/AHJY5UDHeBMWAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="3755c740-b0ee-4727-9353-c716e545a14f"
+		isrooted="True"
+		name="CochlearHearingImplantsCochlearUni"
+		refpath="/dom[@domain='www.cochlear.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="47abb1ff-dffe-44f3-bc02-961b194ecf1e"
+			name="ATagLearnAboutHearingLoss"
+			refimgid="9d78df68-ef0a-4778-b404-84f65fac2d73"
+			refpath="/dom[@domain='www.cochlear.com']//li[#'understandList']/a[@innertext='Learn about hearing loss']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.cochlear.com']//li[#'understandList']/a[@innertext~'^Learn\ about\ hearing\ ']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="4f120a3b-a50c-4ff4-8e4d-499c4910c317"
+			name="FindYourNearestClinic"
+			refimgid="79451411-1cc8-49b6-aae6-5be362aabf6b"
+			refpath="/dom[@domain='www.cochlear.com']//div[#'main']/div[2]/div[1]/div/h1[@innertext='Find your nearest clinic']/span[@innertext='Find your nearest clinic']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.cochlear.com']//div[#'main']//h1[@innertext='Find your nearest clinic']/span[@innertext='Find your nearest clinic']
+			</item>
+			<item
+			addcaps="unknown,webelement,h2tag"
+			capname="h2tag"
+			id="840219ce-251c-4fd9-aacf-9201901ab97c"
+			name="COCHLEARGLOBALPRIVACYPOLICY"
+			refimgid="2c18baea-9a98-40f6-bca0-30babb8292c0"
+			refpath="/dom[@domain='www.cochlear.com']//section[#'section-content-image-id-privacy-policy-content']/div/h2[@innertext='COCHLEAR GLOBAL PRIVACY POLICY']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.cochlear.com']//section[#'section-content-image-id-privacy-policy-content']/?/?/h2[@innertext~'^COCHLEAR\ GLOBAL\ PRIVACY\ P']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="96a5dd37-c05a-42f1-90a1-243fb6c1e147"
+			name="TermsOfUse"
+			refimgid="c142f1f8-3286-4bc2-88cd-43e68a566ac6"
+			refpath="/dom[@domain='www.cochlear.com']//div[#'main']/div[2]/div[1]/div/h1[@innertext='Terms of Use']/span[@innertext='Terms of Use']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.cochlear.com']//div[#'main']//h1[@innertext='Terms of Use']/span[@innertext='Terms of Use']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="37fc3fab-716a-4f34-866d-56085ff30732"
+			name="SpanTagNucleu"
+			refimgid="9d4632dc-a69c-4232-94da-b9a4382217ac"
+			refpath="/dom[@domain='www.cochlear.com']//div[#'main']/div[2]/div[1]/div/h1[@innertext='Nucleus Smart App']/span[@innertext='Nucleus Smart App']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.cochlear.com']//div[#'main']//h1[@innertext='Nucleus Smart App']/span[@innertext~'^']
+			</item>
+			<item
+			addcaps="unknown,webelement,h2tag"
+			capname="h2tag"
+			id="eece8064-ccbc-4551-b610-e3b8b0a7c026"
+			name="SoundProcessorComparison"
+			refimgid="3c4e7167-f276-4b61-b63b-fc518519146f"
+			refpath="/dom[@domain='www.cochlear.com']//div[#'main']/div[2]/div[1]/div/div/h2[@innertext='Sound processor comparison']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.cochlear.com']//div[#'main']/div[2]//h2[@innertext~'^Sound\ processor\ compariso']
+			</item>
+			<basepath>
+				/dom[@domain='www.cochlear.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="fe9b0454-df3b-4acf-8a10-7ca3731d3afd"
+		isrooted="True"
+		name="CochlearHearingImplantsCochlearUni1"
+		refimgid="a5164ce4-1d36-4206-990e-8256a2e3f91b"
+		refpath="/form[@title~'^Cochlear\ Hearing\ Implants']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^Cochlear\ Hearing\ Implants']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALpSURBVDhPrZJrSFNhHMZXQSAEfchpLawM+9AX
+8UNgV8/O3KzNzVu70C5qU6GgIIMiFBIC6aIRSIF3t5zRPUzTUqP71szNykvmdo7QCAxJym06tp3z
+dDyu+hB+64EH3g//3+/9v/AK/mu+qNVxtDEnfUorv0RrFV2UWu6g82Uf6DxZN5UnrfPkkqbx/P0b
+YuP/xqPOSqENuaO0+gDog/tBF2SBA0HlZoLKIbmzJEjlZZlj439jV++Me56dvu1jgazJq5EHlhN4
+VWLGo5RM0AVkRgxdyvFK3e7yM2pfry4zNL4ILLeBSgxvNgGPknBOKYi0bxpiDS/Ybi25kNpczFQe
+VbAuJYGxU+V4a+vEg0eTbOvALPtmoBtU50lM35Fj7v4uzHfv9i/07nOH+4gdvGCrrfTh1o5SKKp1
+eCHfA3t7J87eDsBwNYicy0FUdMzi0+dJzNmPIPosA9GX+5jo64wQXhFiXpBsK7Un20qQ2lCEpoME
+7vZQPJx/JQhVbRAl9X409s3ii7MGrIME85YE6yQZ9p1ExguSrMUjm9rN2GwzQ3XRiIb+AA8qF1sT
+hLYuiNM3AphwWQC3jKuUayZYt1SxJLAUPU5qP4ylmlH/bCh6zOKH4VoABdwWp2zf0eXwYma4kodZ
+VybDDEnmI0OkhBeIrKb6jdeL8btl/Y14OjKD6gdzKGvy494rL4bft8I/bOAFjIuDnaQn7BCn84KN
+VlOZyGKKiKyFrMhahLRbJ5DXVYtjT26hou8xrvacxw93ISLubH517nYfM0jWLtiJFF6Q2KbbktCs
+r1pvMU0lWkz4WyMSG/SgXyr+vBtuCSKDZBNGNatRVbWSF/CBYEVii0Gb0GocE7YZQgkcLGzV49xN
+FcO4ZCx3a5QZIqfDTrEVlHRtjPo3wma9RthyyBffpse6Rh2+vlGEODAaHhT/5OHR2O9bLutbDgs5
+wd74Fp0y6Vp+oe95VmHEJVGF7WIi5MrYDmhWxUa5CAS/AHJY5UDHeBMWAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="30f117dd-2678-4e83-a1d6-640e2fbe94b7"
+		isrooted="True"
+		name="CochlearImplantSoundProcessorNucleus1"
+		refimgid="0e564e0b-48e6-41a4-b7bc-5791d755b82b"
+		refpath="/form[@title~'^Cochlear\ Implant\ Sound\ Pr']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="6adc0ddf-4b05-4359-8032-ba0bc6eec674"
+			name="Element214676384"
+			refimgid="88452137-83e6-4170-9b82-5819c42427ca"
+			refpath="/form[@title='Cochlear Implant Sound Processor Nucleus® 7 | Hear Your Way™ Cochlear UK - Google Chrome']/element[@controlid='214676384']"
+			searchtimeout="30000ms">
+				/form[@title~'^Cochlear\ Implant\ Sound\ Pr']/element[@controlid='214676384']
+			</item>
+			<basepath>
+				/form[@title~'^Cochlear\ Implant\ Sound\ Pr']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALpSURBVDhPrZJrSFNhHMZXQSAEfchpLawM+9AX
+8UNgV8/O3KzNzVu70C5qU6GgIIMiFBIC6aIRSIF3t5zRPUzTUqP71szNykvmdo7QCAxJym06tp3z
+dDyu+hB+64EH3g//3+/9v/AK/mu+qNVxtDEnfUorv0RrFV2UWu6g82Uf6DxZN5UnrfPkkqbx/P0b
+YuP/xqPOSqENuaO0+gDog/tBF2SBA0HlZoLKIbmzJEjlZZlj439jV++Me56dvu1jgazJq5EHlhN4
+VWLGo5RM0AVkRgxdyvFK3e7yM2pfry4zNL4ILLeBSgxvNgGPknBOKYi0bxpiDS/Ybi25kNpczFQe
+VbAuJYGxU+V4a+vEg0eTbOvALPtmoBtU50lM35Fj7v4uzHfv9i/07nOH+4gdvGCrrfTh1o5SKKp1
+eCHfA3t7J87eDsBwNYicy0FUdMzi0+dJzNmPIPosA9GX+5jo64wQXhFiXpBsK7Un20qQ2lCEpoME
+7vZQPJx/JQhVbRAl9X409s3ii7MGrIME85YE6yQZ9p1ExguSrMUjm9rN2GwzQ3XRiIb+AA8qF1sT
+hLYuiNM3AphwWQC3jKuUayZYt1SxJLAUPU5qP4ylmlH/bCh6zOKH4VoABdwWp2zf0eXwYma4kodZ
+VybDDEnmI0OkhBeIrKb6jdeL8btl/Y14OjKD6gdzKGvy494rL4bft8I/bOAFjIuDnaQn7BCn84KN
+VlOZyGKKiKyFrMhahLRbJ5DXVYtjT26hou8xrvacxw93ISLubH517nYfM0jWLtiJFF6Q2KbbktCs
+r1pvMU0lWkz4WyMSG/SgXyr+vBtuCSKDZBNGNatRVbWSF/CBYEVii0Gb0GocE7YZQgkcLGzV49xN
+FcO4ZCx3a5QZIqfDTrEVlHRtjPo3wma9RthyyBffpse6Rh2+vlGEODAaHhT/5OHR2O9bLutbDgs5
+wd74Fp0y6Vp+oe95VmHEJVGF7WIi5MrYDmhWxUa5CAS/AHJY5UDHeBMWAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d4792236-e823-4371-b3e8-151971c91c74"
+		isrooted="True"
+		name="FindAClinicCochlearUKGoogleChr"
+		refimgid="1f3ff294-670a-4c4c-8646-48c083916519"
+		refpath="/form[@title~'^Find\ a\ Clinic\ \|\ Cochlear\ ']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^Find\ a\ Clinic\ \|\ Cochlear\ ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALpSURBVDhPrZJrSFNhHMZXQSAEfchpLawM+9AX
+8UNgV8/O3KzNzVu70C5qU6GgIIMiFBIC6aIRSIF3t5zRPUzTUqP71szNykvmdo7QCAxJym06tp3z
+dDyu+hB+64EH3g//3+/9v/AK/mu+qNVxtDEnfUorv0RrFV2UWu6g82Uf6DxZN5UnrfPkkqbx/P0b
+YuP/xqPOSqENuaO0+gDog/tBF2SBA0HlZoLKIbmzJEjlZZlj439jV++Me56dvu1jgazJq5EHlhN4
+VWLGo5RM0AVkRgxdyvFK3e7yM2pfry4zNL4ILLeBSgxvNgGPknBOKYi0bxpiDS/Ybi25kNpczFQe
+VbAuJYGxU+V4a+vEg0eTbOvALPtmoBtU50lM35Fj7v4uzHfv9i/07nOH+4gdvGCrrfTh1o5SKKp1
+eCHfA3t7J87eDsBwNYicy0FUdMzi0+dJzNmPIPosA9GX+5jo64wQXhFiXpBsK7Un20qQ2lCEpoME
+7vZQPJx/JQhVbRAl9X409s3ii7MGrIME85YE6yQZ9p1ExguSrMUjm9rN2GwzQ3XRiIb+AA8qF1sT
+hLYuiNM3AphwWQC3jKuUayZYt1SxJLAUPU5qP4ylmlH/bCh6zOKH4VoABdwWp2zf0eXwYma4kodZ
+VybDDEnmI0OkhBeIrKb6jdeL8btl/Y14OjKD6gdzKGvy494rL4bft8I/bOAFjIuDnaQn7BCn84KN
+VlOZyGKKiKyFrMhahLRbJ5DXVYtjT26hou8xrvacxw93ISLubH517nYfM0jWLtiJFF6Q2KbbktCs
+r1pvMU0lWkz4WyMSG/SgXyr+vBtuCSKDZBNGNatRVbWSF/CBYEVii0Gb0GocE7YZQgkcLGzV49xN
+FcO4ZCx3a5QZIqfDTrEVlHRtjPo3wma9RthyyBffpse6Rh2+vlGEODAaHhT/5OHR2O9bLutbDgs5
+wd74Fp0y6Vp+oe95VmHEJVGF7WIi5MrYDmhWxUa5CAS/AHJY5UDHeBMWAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="ca3d32fb-eefe-447a-bce1-6e4d80dae475"
+		isrooted="True"
+		name="UpgradeToCochlearImplantSoundProces"
+		refimgid="b7ebc8a6-4700-49f8-a2f1-0bb1edf75b8f"
+		refpath="/form[@title~'^Upgrade\ to\ Cochlear\ Impla']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^Upgrade\ to\ Cochlear\ Impla']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALpSURBVDhPrZJrSFNhHMZXQSAEfchpLawM+9AX
+8UNgV8/O3KzNzVu70C5qU6GgIIMiFBIC6aIRSIF3t5zRPUzTUqP71szNykvmdo7QCAxJym06tp3z
+dDyu+hB+64EH3g//3+/9v/AK/mu+qNVxtDEnfUorv0RrFV2UWu6g82Uf6DxZN5UnrfPkkqbx/P0b
+YuP/xqPOSqENuaO0+gDog/tBF2SBA0HlZoLKIbmzJEjlZZlj439jV++Me56dvu1jgazJq5EHlhN4
+VWLGo5RM0AVkRgxdyvFK3e7yM2pfry4zNL4ILLeBSgxvNgGPknBOKYi0bxpiDS/Ybi25kNpczFQe
+VbAuJYGxU+V4a+vEg0eTbOvALPtmoBtU50lM35Fj7v4uzHfv9i/07nOH+4gdvGCrrfTh1o5SKKp1
+eCHfA3t7J87eDsBwNYicy0FUdMzi0+dJzNmPIPosA9GX+5jo64wQXhFiXpBsK7Un20qQ2lCEpoME
+7vZQPJx/JQhVbRAl9X409s3ii7MGrIME85YE6yQZ9p1ExguSrMUjm9rN2GwzQ3XRiIb+AA8qF1sT
+hLYuiNM3AphwWQC3jKuUayZYt1SxJLAUPU5qP4ylmlH/bCh6zOKH4VoABdwWp2zf0eXwYma4kodZ
+VybDDEnmI0OkhBeIrKb6jdeL8btl/Y14OjKD6gdzKGvy494rL4bft8I/bOAFjIuDnaQn7BCn84KN
+VlOZyGKKiKyFrMhahLRbJ5DXVYtjT26hou8xrvacxw93ISLubH517nYfM0jWLtiJFF6Q2KbbktCs
+r1pvMU0lWkz4WyMSG/SgXyr+vBtuCSKDZBNGNatRVbWSF/CBYEVii0Gb0GocE7YZQgkcLGzV49xN
+FcO4ZCx3a5QZIqfDTrEVlHRtjPo3wma9RthyyBffpse6Rh2+vlGEODAaHhT/5OHR2O9bLutbDgs5
+wd74Fp0y6Vp+oe95VmHEJVGF7WIi5MrYDmhWxUa5CAS/AHJY5UDHeBMWAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="7e01acb4-b87b-4cbe-bc15-21b1288ba71d"
+		isrooted="True"
+		name="UseMadeForIPhoneHearingAidsApple"
+		refimgid="2df2f399-5b04-44b9-8db1-e9546f76566c"
+		refpath="/dom[@domain='support.apple.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,h2tag"
+			capname="h2tag"
+			id="8aa7eab6-bf0b-4646-9696-87faf7d23e3b"
+			name="CompatibleHearingDevices"
+			refimgid="254995a7-1b87-40c4-9d50-71060d602324"
+			refpath="/dom[@domain='support.apple.com']//div[#'compatible-devices']/h2[@innertext='Compatible hearing devices']"
+			searchtimeout="30000ms">
+				/dom[@domain='support.apple.com']//div[#'compatible-devices']/h2[@innertext~'^Compatible\ hearing\ device']
+			</item>
+			<basepath>
+				/dom[@domain='support.apple.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="8b2451c3-f293-4141-adc1-c8a77535ddb4"
+		isrooted="True"
+		name="UseMadeForIPhoneHearingAidsApple1"
+		refimgid="2a91f26f-cba2-4740-a1b7-d5cc7aa05c41"
+		refpath="/form[@title~'^Use\ Made\ for\ iPhone\ heari']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^Use\ Made\ for\ iPhone\ heari']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALpSURBVDhPrZJrSFNhHMZXQSAEfchpLawM+9AX
+8UNgV8/O3KzNzVu70C5qU6GgIIMiFBIC6aIRSIF3t5zRPUzTUqP71szNykvmdo7QCAxJym06tp3z
+dDyu+hB+64EH3g//3+/9v/AK/mu+qNVxtDEnfUorv0RrFV2UWu6g82Uf6DxZN5UnrfPkkqbx/P0b
+YuP/xqPOSqENuaO0+gDog/tBF2SBA0HlZoLKIbmzJEjlZZlj439jV++Me56dvu1jgazJq5EHlhN4
+VWLGo5RM0AVkRgxdyvFK3e7yM2pfry4zNL4ILLeBSgxvNgGPknBOKYi0bxpiDS/Ybi25kNpczFQe
+VbAuJYGxU+V4a+vEg0eTbOvALPtmoBtU50lM35Fj7v4uzHfv9i/07nOH+4gdvGCrrfTh1o5SKKp1
+eCHfA3t7J87eDsBwNYicy0FUdMzi0+dJzNmPIPosA9GX+5jo64wQXhFiXpBsK7Un20qQ2lCEpoME
+7vZQPJx/JQhVbRAl9X409s3ii7MGrIME85YE6yQZ9p1ExguSrMUjm9rN2GwzQ3XRiIb+AA8qF1sT
+hLYuiNM3AphwWQC3jKuUayZYt1SxJLAUPU5qP4ylmlH/bCh6zOKH4VoABdwWp2zf0eXwYma4kodZ
+VybDDEnmI0OkhBeIrKb6jdeL8btl/Y14OjKD6gdzKGvy494rL4bft8I/bOAFjIuDnaQn7BCn84KN
+VlOZyGKKiKyFrMhahLRbJ5DXVYtjT26hou8xrvacxw93ISLubH517nYfM0jWLtiJFF6Q2KbbktCs
+r1pvMU0lWkz4WyMSG/SgXyr+vBtuCSKDZBNGNatRVbWSF/CBYEVii0Gb0GocE7YZQgkcLGzV49xN
+FcO4ZCx3a5QZIqfDTrEVlHRtjPo3wma9RthyyBffpse6Rh2+vlGEODAaHhT/5OHR2O9bLutbDgs5
+wd74Fp0y6Vp+oe95VmHEJVGF7WIi5MrYDmhWxUa5CAS/AHJY5UDHeBMWAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="de1112df-1e68-497c-b654-f32d3385fb01"
+		isrooted="True"
+		name="GlobalPrivacyPolicyGoogleChrome"
+		refimgid="fe36e797-1cab-456e-9b4b-3ceef518e786"
+		refpath="/form[@title~'^Global\ Privacy\ Policy\ -\ G']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^Global\ Privacy\ Policy\ -\ G']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALpSURBVDhPrZJrSFNhHMZXQSAEfchpLawM+9AX
+8UNgV8/O3KzNzVu70C5qU6GgIIMiFBIC6aIRSIF3t5zRPUzTUqP71szNykvmdo7QCAxJym06tp3z
+dDyu+hB+64EH3g//3+/9v/AK/mu+qNVxtDEnfUorv0RrFV2UWu6g82Uf6DxZN5UnrfPkkqbx/P0b
+YuP/xqPOSqENuaO0+gDog/tBF2SBA0HlZoLKIbmzJEjlZZlj439jV++Me56dvu1jgazJq5EHlhN4
+VWLGo5RM0AVkRgxdyvFK3e7yM2pfry4zNL4ILLeBSgxvNgGPknBOKYi0bxpiDS/Ybi25kNpczFQe
+VbAuJYGxU+V4a+vEg0eTbOvALPtmoBtU50lM35Fj7v4uzHfv9i/07nOH+4gdvGCrrfTh1o5SKKp1
+eCHfA3t7J87eDsBwNYicy0FUdMzi0+dJzNmPIPosA9GX+5jo64wQXhFiXpBsK7Un20qQ2lCEpoME
+7vZQPJx/JQhVbRAl9X409s3ii7MGrIME85YE6yQZ9p1ExguSrMUjm9rN2GwzQ3XRiIb+AA8qF1sT
+hLYuiNM3AphwWQC3jKuUayZYt1SxJLAUPU5qP4ylmlH/bCh6zOKH4VoABdwWp2zf0eXwYma4kodZ
+VybDDEnmI0OkhBeIrKb6jdeL8btl/Y14OjKD6gdzKGvy494rL4bft8I/bOAFjIuDnaQn7BCn84KN
+VlOZyGKKiKyFrMhahLRbJ5DXVYtjT26hou8xrvacxw93ISLubH517nYfM0jWLtiJFF6Q2KbbktCs
+r1pvMU0lWkz4WyMSG/SgXyr+vBtuCSKDZBNGNatRVbWSF/CBYEVii0Gb0GocE7YZQgkcLGzV49xN
+FcO4ZCx3a5QZIqfDTrEVlHRtjPo3wma9RthyyBffpse6Rh2+vlGEODAaHhT/5OHR2O9bLutbDgs5
+wd74Fp0y6Vp+oe95VmHEJVGF7WIi5MrYDmhWxUa5CAS/AHJY5UDHeBMWAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="2edb2410-252c-4b48-a1f4-21b24979216b"
+		isrooted="True"
+		name="CochlearUKIEHalamanUtamaFacebo"
+		refpath="/dom[@domain='www.facebook.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,itag"
+			capname="itag"
+			id="7f2a6fd6-745a-43be-b856-aa792aacaeac"
+			name="FbLogoImgSpLda9yxacsCe15xSx7f214"
+			refimgid="5be0f999-7f8e-4617-b2a2-f9f0b35998e8"
+			refpath="/dom[@domain='www.facebook.com']//div[#'blueBarDOMInspector']/div/div/div/div[1]/a[@title='Pergi ke Halaman Utama Facebook']/i"
+			searchtimeout="30000ms">
+				/dom[@domain='www.facebook.com']//div[#'blueBarDOMInspector']/div/div/div/div[1]/a[@title~'^Pergi\ ke\ Halaman\ Utama\ Fa']/i
+			</item>
+			<basepath>
+				/dom[@domain='www.facebook.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="7ac5254e-2bed-447c-9f60-6a228d951f9f"
+		isrooted="True"
+		name="CochlearUKIEAtCochlearUKTwitter"
+		refpath="/dom[@domain='twitter.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="73361b31-fc76-4b09-9d06-611afa1fa541"
+			name="IconIconBirdIconLarge"
+			refimgid="63e4cde4-8b22-4b61-b38a-fb4d5f22a98d"
+			refpath="/dom[@domain='twitter.com']//li[#'global-nav-home']/a[@href='https://twitter.com/']/span[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='twitter.com']//li[#'global-nav-home']/a/span[1]
+			</item>
+			<basepath>
+				/dom[@domain='twitter.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="9cd62849-762f-4bab-a03c-6ae01cdf6175"
+		isrooted="True"
+		name="WebDocument2CochlearEuropeMiddleE"
+		refpath="/dom[@domain='www.youtube.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="97a490d1-8716-4e43-a73a-2ef42c85f61a"
+			name="LogoIconContainer"
+			refimgid="6a16edc3-608c-4638-9e41-aefbe09eefdc"
+			refpath="/dom[@domain='www.youtube.com']//div[#'logo-icon-container']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.youtube.com']//div[#'logo-icon-container']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="3a314890-79ed-409e-af8b-59b5e89f4cf9"
+			name="YouTubeHome"
+			refimgid="f534cd93-ce90-460b-a71c-28f3a4d99497"
+			refpath="/dom[@domain='www.youtube.com']//a[#'logo-container']/span[@title='YouTube Home']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.youtube.com']//a[#'logo-container']/span[@title='YouTube Home']
+			</item>
+			<basepath>
+				/dom[@domain='www.youtube.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="c16fc1fe-afb0-46b1-be74-35c9c81c5993"
+		isrooted="True"
+		name="WebDocument1CochlearOverviewLink"
+		refpath="/dom[@domain='www.linkedin.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement"
+			capname="webelement"
+			id="baeb3e14-8a30-4d6d-bcdb-b4bc809ed827"
+			name="Rect"
+			refimgid="30ae15d4-dfb0-41af-ae0b-aad596e41594"
+			refpath="/dom[@domain='www.linkedin.com']//div[#'inbug-nav-item']/a[@href='https://www.linkedin.com/feed/']/span[1]/tag[@tagname='li-icon']/tag[@tagname='svg']/tag[@tagname='g']/tag[5]/tag[2]/tag[@tagname='rect']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'inbug-nav-item']/a[@href~'^https://www\.linkedin\.com/']/span[1]//tag[@tagname='g']/tag[5]/?/?/tag[@tagname='rect']
+			</item>
+			<item
+			addcaps="unknown,webelement"
+			capname="webelement"
+			id="2ca55ad5-fa4b-4d26-9669-8f3807ea6ac6"
+			name="Path"
+			refimgid="47f49adf-aea9-4c93-b513-ab72a023ebcc"
+			refpath="/dom[@domain='www.linkedin.com']//div[#'inbug-nav-item']/a[@href='https://www.linkedin.com/feed/']/span[1]/tag[@tagname='li-icon']/tag[@tagname='svg']/tag[@tagname='g']/tag[5]/tag[2]/tag[@tagname='path']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'inbug-nav-item']/a[@href~'^https://www\.linkedin\.com/']/span[1]//tag[@tagname='g']/tag[5]/tag[2]/tag[@tagname='path']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="385e7855-504d-4d4b-9c67-04ac40fe3510"
+			name="LinkedIn"
+			refimgid="25b518c7-4641-41c9-accb-7282a2245620"
+			refpath="/dom[@domain='www.linkedin.com']//div[#'header-banner']/div/div/a[@title='LinkedIn']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'header-banner']//a[@title='LinkedIn']
+			</item>
+			<item
+			addcaps="unknown,webelement"
+			capname="webelement"
+			id="6ba108ab-7bcb-4aaa-86ac-e6024fb95614"
+			name="LiIcon"
+			refimgid="3658dd11-5d72-47d3-9f51-9cbb561e82aa"
+			refpath="/dom[@domain='www.linkedin.com']/body/header/div/a/tag[@tagname='li-icon']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']/?/?/header/?/?/a[@title='LinkedIn']/tag[@tagname='li-icon']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="85625426-e2e5-46da-8cb0-c6e261c54cee"
+			name="SignIn"
+			refimgid="d9055cd6-593c-4146-997f-1ce656f60796"
+			refpath="/dom[@domain='www.linkedin.com']/body/header/div/nav/ul/li[1]/a[@innertext='Sign in']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']/?/?/header/?/?/nav/ul/?/?/a[@innertext='Sign in']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="5a4dd264-eee2-43c2-9654-48d7353d6fe7"
+			name="LinkedIn1"
+			refimgid="6a081754-154c-4d43-b33c-cba75d868075"
+			refpath="/dom[@domain='www.linkedin.com']/body/header/div/a[@title='LinkedIn']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']/?/?/header/?/?/a[@title='LinkedIn']
+			</item>
+			<basepath>
+				/dom[@domain='www.linkedin.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d819795e-d30b-4017-9857-cc451b80c466"
+		isrooted="True"
+		name="CochlearUKIEHalamanUtamaFacebo1"
+		refimgid="f45560e4-b8b0-44df-8c6b-6a742398e6f5"
+		refpath="/form[@title~'^Cochlear\ UK\ &amp;\ IE\ -\ Halama']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^Cochlear\ UK\ &amp;\ IE\ -\ Halama']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALpSURBVDhPrZJrSFNhHMZXQSAEfchpLawM+9AX
+8UNgV8/O3KzNzVu70C5qU6GgIIMiFBIC6aIRSIF3t5zRPUzTUqP71szNykvmdo7QCAxJym06tp3z
+dDyu+hB+64EH3g//3+/9v/AK/mu+qNVxtDEnfUorv0RrFV2UWu6g82Uf6DxZN5UnrfPkkqbx/P0b
+YuP/xqPOSqENuaO0+gDog/tBF2SBA0HlZoLKIbmzJEjlZZlj439jV++Me56dvu1jgazJq5EHlhN4
+VWLGo5RM0AVkRgxdyvFK3e7yM2pfry4zNL4ILLeBSgxvNgGPknBOKYi0bxpiDS/Ybi25kNpczFQe
+VbAuJYGxU+V4a+vEg0eTbOvALPtmoBtU50lM35Fj7v4uzHfv9i/07nOH+4gdvGCrrfTh1o5SKKp1
+eCHfA3t7J87eDsBwNYicy0FUdMzi0+dJzNmPIPosA9GX+5jo64wQXhFiXpBsK7Un20qQ2lCEpoME
+7vZQPJx/JQhVbRAl9X409s3ii7MGrIME85YE6yQZ9p1ExguSrMUjm9rN2GwzQ3XRiIb+AA8qF1sT
+hLYuiNM3AphwWQC3jKuUayZYt1SxJLAUPU5qP4ylmlH/bCh6zOKH4VoABdwWp2zf0eXwYma4kodZ
+VybDDEnmI0OkhBeIrKb6jdeL8btl/Y14OjKD6gdzKGvy494rL4bft8I/bOAFjIuDnaQn7BCn84KN
+VlOZyGKKiKyFrMhahLRbJ5DXVYtjT26hou8xrvacxw93ISLubH517nYfM0jWLtiJFF6Q2KbbktCs
+r1pvMU0lWkz4WyMSG/SgXyr+vBtuCSKDZBNGNatRVbWSF/CBYEVii0Gb0GocE7YZQgkcLGzV49xN
+FcO4ZCx3a5QZIqfDTrEVlHRtjPo3wma9RthyyBffpse6Rh2+vlGEODAaHhT/5OHR2O9bLutbDgs5
+wd74Fp0y6Vp+oe95VmHEJVGF7WIi5MrYDmhWxUa5CAS/AHJY5UDHeBMWAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="8a81914d-b661-494f-a85e-46841d0e8b89"
+		isrooted="True"
+		name="TheNucleusRSmartAppInteractiveDemo"
+		refimgid="20e0ff4e-d480-4958-9dd6-06dc47477d01"
+		refpath="/form[@title~'^The\ Nucleus®\ Smart\ App\ In']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^The\ Nucleus&#174;\ Smart\ App\ In']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALpSURBVDhPrZJrSFNhHMZXQSAEfchpLawM+9AX
+8UNgV8/O3KzNzVu70C5qU6GgIIMiFBIC6aIRSIF3t5zRPUzTUqP71szNykvmdo7QCAxJym06tp3z
+dDyu+hB+64EH3g//3+/9v/AK/mu+qNVxtDEnfUorv0RrFV2UWu6g82Uf6DxZN5UnrfPkkqbx/P0b
+YuP/xqPOSqENuaO0+gDog/tBF2SBA0HlZoLKIbmzJEjlZZlj439jV++Me56dvu1jgazJq5EHlhN4
+VWLGo5RM0AVkRgxdyvFK3e7yM2pfry4zNL4ILLeBSgxvNgGPknBOKYi0bxpiDS/Ybi25kNpczFQe
+VbAuJYGxU+V4a+vEg0eTbOvALPtmoBtU50lM35Fj7v4uzHfv9i/07nOH+4gdvGCrrfTh1o5SKKp1
+eCHfA3t7J87eDsBwNYicy0FUdMzi0+dJzNmPIPosA9GX+5jo64wQXhFiXpBsK7Un20qQ2lCEpoME
+7vZQPJx/JQhVbRAl9X409s3ii7MGrIME85YE6yQZ9p1ExguSrMUjm9rN2GwzQ3XRiIb+AA8qF1sT
+hLYuiNM3AphwWQC3jKuUayZYt1SxJLAUPU5qP4ylmlH/bCh6zOKH4VoABdwWp2zf0eXwYma4kodZ
+VybDDEnmI0OkhBeIrKb6jdeL8btl/Y14OjKD6gdzKGvy494rL4bft8I/bOAFjIuDnaQn7BCn84KN
+VlOZyGKKiKyFrMhahLRbJ5DXVYtjT26hou8xrvacxw93ISLubH517nYfM0jWLtiJFF6Q2KbbktCs
+r1pvMU0lWkz4WyMSG/SgXyr+vBtuCSKDZBNGNatRVbWSF/CBYEVii0Gb0GocE7YZQgkcLGzV49xN
+FcO4ZCx3a5QZIqfDTrEVlHRtjPo3wma9RthyyBffpse6Rh2+vlGEODAaHhT/5OHR2O9bLutbDgs5
+wd74Fp0y6Vp+oe95VmHEJVGF7WIi5MrYDmhWxUa5CAS/AHJY5UDHeBMWAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="5e235463-2072-4ecd-8523-b5720d6f065d"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="e7d2c190-3ed7-4c2d-b27e-96de90bc7abd"
+			name="MSTaskListWClass"
+			refimgid="3001375a-2fa5-448e-8202-3e07a34558ef"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container[@caption='Running applications']/element[@class='MSTaskListWClass']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/?/?/container[@caption='Running applications']/element[@class='MSTaskListWClass']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJN
+AACHDwAAjA8AAP1SAACBQAAAfXkAAOmLAAA85QAAGcxzPIV3AAAKOWlDQ1BQaG90b3Nob3AgSUND
+IHByb2ZpbGUAAEjHnZZ3VFTXFofPvXd6oc0wAlKG3rvAANJ7k15FYZgZYCgDDjM0sSGiAhFFRJoi
+SFDEgNFQJFZEsRAUVLAHJAgoMRhFVCxvRtaLrqy89/Ly++Osb+2z97n77L3PWhcAkqcvl5cGSwGQ
+yhPwgzyc6RGRUXTsAIABHmCAKQBMVka6X7B7CBDJy82FniFyAl8EAfB6WLwCcNPQM4BOB/+fpFnp
+fIHomAARm7M5GSwRF4g4JUuQLrbPipgalyxmGCVmvihBEcuJOWGRDT77LLKjmNmpPLaIxTmns1PZ
+Yu4V8bZMIUfEiK+ICzO5nCwR3xKxRoowlSviN+LYVA4zAwAUSWwXcFiJIjYRMYkfEuQi4uUA4EgJ
+X3HcVyzgZAvEl3JJS8/hcxMSBXQdli7d1NqaQffkZKVwBALDACYrmcln013SUtOZvBwAFu/8WTLi
+2tJFRbY0tba0NDQzMv2qUP91829K3NtFehn4uWcQrf+L7a/80hoAYMyJarPziy2uCoDOLQDI3fti
+0zgAgKSobx3Xv7oPTTwviQJBuo2xcVZWlhGXwzISF/QP/U+Hv6GvvmckPu6P8tBdOfFMYYqALq4b
+Ky0lTcinZ6QzWRy64Z+H+B8H/nUeBkGceA6fwxNFhImmjMtLELWbx+YKuGk8Opf3n5r4D8P+pMW5
+FonS+BFQY4yA1HUqQH7tBygKESDR+8Vd/6NvvvgwIH554SqTi3P/7zf9Z8Gl4iWDm/A5ziUohM4S
+8jMX98TPEqABAUgCKpAHykAd6ABDYAasgC1wBG7AG/iDEBAJVgMWSASpgA+yQB7YBApBMdgJ9oBq
+UAcaQTNoBcdBJzgFzoNL4Bq4AW6D+2AUTIBnYBa8BgsQBGEhMkSB5CEVSBPSh8wgBmQPuUG+UBAU
+CcVCCRAPEkJ50GaoGCqDqqF6qBn6HjoJnYeuQIPQXWgMmoZ+h97BCEyCqbASrAUbwwzYCfaBQ+BV
+cAK8Bs6FC+AdcCXcAB+FO+Dz8DX4NjwKP4PnEIAQERqiihgiDMQF8UeikHiEj6xHipAKpAFpRbqR
+PuQmMorMIG9RGBQFRUcZomxRnqhQFAu1BrUeVYKqRh1GdaB6UTdRY6hZ1Ec0Ga2I1kfboL3QEegE
+dBa6EF2BbkK3oy+ib6Mn0K8xGAwNo42xwnhiIjFJmLWYEsw+TBvmHGYQM46Zw2Kx8lh9rB3WH8vE
+CrCF2CrsUexZ7BB2AvsGR8Sp4Mxw7rgoHA+Xj6vAHcGdwQ3hJnELeCm8Jt4G749n43PwpfhGfDf+
+On4Cv0CQJmgT7AghhCTCJkIloZVwkfCA8JJIJKoRrYmBRC5xI7GSeIx4mThGfEuSIemRXEjRJCFp
+B+kQ6RzpLuklmUzWIjuSo8gC8g5yM/kC+RH5jQRFwkjCS4ItsUGiRqJDYkjiuSReUlPSSXK1ZK5k
+heQJyeuSM1J4KS0pFymm1HqpGqmTUiNSc9IUaVNpf+lU6RLpI9JXpKdksDJaMm4ybJkCmYMyF2TG
+KQhFneJCYVE2UxopFykTVAxVm+pFTaIWU7+jDlBnZWVkl8mGyWbL1sielh2lITQtmhcthVZKO04b
+pr1borTEaQlnyfYlrUuGlszLLZVzlOPIFcm1yd2WeydPl3eTT5bfJd8p/1ABpaCnEKiQpbBf4aLC
+zFLqUtulrKVFS48vvacIK+opBimuVTyo2K84p6Ss5KGUrlSldEFpRpmm7KicpFyufEZ5WoWiYq/C
+VSlXOavylC5Ld6Kn0CvpvfRZVUVVT1Whar3qgOqCmrZaqFq+WpvaQ3WCOkM9Xr1cvUd9VkNFw08j
+T6NF454mXpOhmai5V7NPc15LWytca6tWp9aUtpy2l3audov2Ax2yjoPOGp0GnVu6GF2GbrLuPt0b
+erCehV6iXo3edX1Y31Kfq79Pf9AAbWBtwDNoMBgxJBk6GWYathiOGdGMfI3yjTqNnhtrGEcZ7zLu
+M/5oYmGSYtJoct9UxtTbNN+02/R3Mz0zllmN2S1zsrm7+QbzLvMXy/SXcZbtX3bHgmLhZ7HVosfi
+g6WVJd+y1XLaSsMq1qrWaoRBZQQwShiXrdHWztYbrE9Zv7WxtBHYHLf5zdbQNtn2iO3Ucu3lnOWN
+y8ft1OyYdvV2o/Z0+1j7A/ajDqoOTIcGh8eO6o5sxybHSSddpySno07PnU2c+c7tzvMuNi7rXM65
+Iq4erkWuA24ybqFu1W6P3NXcE9xb3Gc9LDzWepzzRHv6eO7yHPFS8mJ5NXvNelt5r/Pu9SH5BPtU
++zz21fPl+3b7wX7efrv9HqzQXMFb0ekP/L38d/s/DNAOWBPwYyAmMCCwJvBJkGlQXlBfMCU4JvhI
+8OsQ55DSkPuhOqHC0J4wybDosOaw+XDX8LLw0QjjiHUR1yIVIrmRXVHYqLCopqi5lW4r96yciLaI
+LoweXqW9KnvVldUKq1NWn46RjGHGnIhFx4bHHol9z/RnNjDn4rziauNmWS6svaxnbEd2OXuaY8cp
+40zG28WXxU8l2CXsTphOdEisSJzhunCruS+SPJPqkuaT/ZMPJX9KCU9pS8Wlxqae5Mnwknm9acpp
+2WmD6frphemja2zW7Fkzy/fhN2VAGasyugRU0c9Uv1BHuEU4lmmfWZP5Jiss60S2dDYvuz9HL2d7
+zmSue+63a1FrWWt78lTzNuWNrXNaV78eWh+3vmeD+oaCDRMbPTYe3kTYlLzpp3yT/LL8V5vDN3cX
+KBVsLBjf4rGlpVCikF84stV2a9021DbutoHt5turtn8sYhddLTYprih+X8IqufqN6TeV33zaEb9j
+oNSydP9OzE7ezuFdDrsOl0mX5ZaN7/bb3VFOLy8qf7UnZs+VimUVdXsJe4V7Ryt9K7uqNKp2Vr2v
+Tqy+XeNc01arWLu9dn4fe9/Qfsf9rXVKdcV17w5wD9yp96jvaNBqqDiIOZh58EljWGPft4xvm5sU
+moqbPhziHRo9HHS4t9mqufmI4pHSFrhF2DJ9NProje9cv+tqNWytb6O1FR8Dx4THnn4f+/3wcZ/j
+PScYJ1p/0Pyhtp3SXtQBdeR0zHYmdo52RXYNnvQ+2dNt293+o9GPh06pnqo5LXu69AzhTMGZT2dz
+z86dSz83cz7h/HhPTM/9CxEXbvUG9g5c9Ll4+ZL7pQt9Tn1nL9tdPnXF5srJq4yrndcsr3X0W/S3
+/2TxU/uA5UDHdavrXTesb3QPLh88M+QwdP6m681Lt7xuXbu94vbgcOjwnZHokdE77DtTd1PuvriX
+eW/h/sYH6AdFD6UeVjxSfNTws+7PbaOWo6fHXMf6Hwc/vj/OGn/2S8Yv7ycKnpCfVEyqTDZPmU2d
+mnafvvF05dOJZ+nPFmYKf5X+tfa5zvMffnP8rX82YnbiBf/Fp99LXsq/PPRq2aueuYC5R69TXy/M
+F72Rf3P4LeNt37vwd5MLWe+x7ys/6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAAOxAAA
+DsQBlSsOGwAAAKdJREFUOE9j+P//P0UYqyApGKsgKZhh/eq5/ynBDCeObv3/5dMzgvjNyxsYGCQO
+dkFdVTZWBU8fX8EqDsOvX96HuAAmMHVCA9gwMK7M/t/TUYldDohXLJkCFkdxQUtDEYqihuqc/y+f
+QVyBLgcznOHMyZ1gBrkY7oKP7x+AMbqCt6/vYIjBMDgMQC5AD3FSMNwF5GKsqYsUjFWQFIxVkBSM
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="26ecd481-8cca-48c8-b245-b17f34faef9f"
+		isrooted="True"
+		name="SoundProcessorComparisonGoogleChro"
+		refimgid="e1fa2987-7ad0-49ea-8d2e-c64efc3ed7d2"
+		refpath="/form[@title~'^Sound\ processor\ compariso']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^Sound\ processor\ compariso']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALpSURBVDhPrZJrSFNhHMZXQSAEfchpLawM+9AX
+8UNgV8/O3KzNzVu70C5qU6GgIIMiFBIC6aIRSIF3t5zRPUzTUqP71szNykvmdo7QCAxJym06tp3z
+dDyu+hB+64EH3g//3+/9v/AK/mu+qNVxtDEnfUorv0RrFV2UWu6g82Uf6DxZN5UnrfPkkqbx/P0b
+YuP/xqPOSqENuaO0+gDog/tBF2SBA0HlZoLKIbmzJEjlZZlj439jV++Me56dvu1jgazJq5EHlhN4
+VWLGo5RM0AVkRgxdyvFK3e7yM2pfry4zNL4ILLeBSgxvNgGPknBOKYi0bxpiDS/Ybi25kNpczFQe
+VbAuJYGxU+V4a+vEg0eTbOvALPtmoBtU50lM35Fj7v4uzHfv9i/07nOH+4gdvGCrrfTh1o5SKKp1
+eCHfA3t7J87eDsBwNYicy0FUdMzi0+dJzNmPIPosA9GX+5jo64wQXhFiXpBsK7Un20qQ2lCEpoME
+7vZQPJx/JQhVbRAl9X409s3ii7MGrIME85YE6yQZ9p1ExguSrMUjm9rN2GwzQ3XRiIb+AA8qF1sT
+hLYuiNM3AphwWQC3jKuUayZYt1SxJLAUPU5qP4ylmlH/bCh6zOKH4VoABdwWp2zf0eXwYma4kodZ
+VybDDEnmI0OkhBeIrKb6jdeL8btl/Y14OjKD6gdzKGvy494rL4bft8I/bOAFjIuDnaQn7BCn84KN
+VlOZyGKKiKyFrMhahLRbJ5DXVYtjT26hou8xrvacxw93ISLubH517nYfM0jWLtiJFF6Q2KbbktCs
+r1pvMU0lWkz4WyMSG/SgXyr+vBtuCSKDZBNGNatRVbWSF/CBYEVii0Gb0GocE7YZQgkcLGzV49xN
+FcO4ZCx3a5QZIqfDTrEVlHRtjPo3wma9RthyyBffpse6Rh2+vlGEODAaHhT/5OHR2O9bLutbDgs5
+wd74Fp0y6Vp+oe95VmHEJVGF7WIi5MrYDmhWxUa5CAS/AHJY5UDHeBMWAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="1bf2a39e-af5e-4e81-904e-b84c4f1f9b32"
+		isrooted="True"
+		name="CochlearCompassGoogleChrome"
+		refimgid="d19f6985-1046-41e9-a176-30ef0054ab1a"
+		refpath="/form[@title~'^Cochlear\ Compass\ -\ Google']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^Cochlear\ Compass\ -\ Google']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALpSURBVDhPrZJrSFNhHMZXQSAEfchpLawM+9AX
+8UNgV8/O3KzNzVu70C5qU6GgIIMiFBIC6aIRSIF3t5zRPUzTUqP71szNykvmdo7QCAxJym06tp3z
+dDyu+hB+64EH3g//3+/9v/AK/mu+qNVxtDEnfUorv0RrFV2UWu6g82Uf6DxZN5UnrfPkkqbx/P0b
+YuP/xqPOSqENuaO0+gDog/tBF2SBA0HlZoLKIbmzJEjlZZlj439jV++Me56dvu1jgazJq5EHlhN4
+VWLGo5RM0AVkRgxdyvFK3e7yM2pfry4zNL4ILLeBSgxvNgGPknBOKYi0bxpiDS/Ybi25kNpczFQe
+VbAuJYGxU+V4a+vEg0eTbOvALPtmoBtU50lM35Fj7v4uzHfv9i/07nOH+4gdvGCrrfTh1o5SKKp1
+eCHfA3t7J87eDsBwNYicy0FUdMzi0+dJzNmPIPosA9GX+5jo64wQXhFiXpBsK7Un20qQ2lCEpoME
+7vZQPJx/JQhVbRAl9X409s3ii7MGrIME85YE6yQZ9p1ExguSrMUjm9rN2GwzQ3XRiIb+AA8qF1sT
+hLYuiNM3AphwWQC3jKuUayZYt1SxJLAUPU5qP4ylmlH/bCh6zOKH4VoABdwWp2zf0eXwYma4kodZ
+VybDDEnmI0OkhBeIrKb6jdeL8btl/Y14OjKD6gdzKGvy494rL4bft8I/bOAFjIuDnaQn7BCn84KN
+VlOZyGKKiKyFrMhahLRbJ5DXVYtjT26hou8xrvacxw93ISLubH517nYfM0jWLtiJFF6Q2KbbktCs
+r1pvMU0lWkz4WyMSG/SgXyr+vBtuCSKDZBNGNatRVbWSF/CBYEVii0Gb0GocE7YZQgkcLGzV49xN
+FcO4ZCx3a5QZIqfDTrEVlHRtjPo3wma9RthyyBffpse6Rh2+vlGEODAaHhT/5OHR2O9bLutbDgs5
+wd74Fp0y6Vp+oe95VmHEJVGF7WIi5MrYDmhWxUa5CAS/AHJY5UDHeBMWAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="7667f7c1-c528-4e69-8a17-249faf528223"
+		isrooted="True"
+		name="FrmFloatingButton"
+		refimgid="2b282d4e-d3e9-443f-ac06-96e12f36b5e5"
+		refpath="/form[@controlname='frmFloatingButton']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@controlname='frmFloatingButton']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFXSURBVDhPjZLBSsNAEIbzFoIvY1IFzz5AWrMF
+T3oU9CrSgx4VhCLe9K5HI1Y02R5UilBsqsajohVb8SQls+7sZtNtkkZ/+NnN7Pwf2WSMSbJ8YluU
+hCXqDPnenfPIdHxULB74tjwHJpqS1bg1q9xAnn3yE0dGym0scMl3enH0H6/NXfII1Lp1ufeJXJvV
+KQHQG9Oep0uw/XAAu+ERXPZu4PjlfOxcfm2toGzfrotQq99JfPLayPQZ8lcRhg+4bnT3WGsQMD2I
+vvsMWJmuMezRjfcf4gYB7a9HphRFEejGmnW1mAXgkCgANzPPymzlepN1BmEGwHdZAE6YAqgiQmZO
+bVi4WIat9j7c958EALXzfDgOKPoLZqMCCLLcigDVgjq4bzQ554B3CeDjqQfzjCAB02oirITjqR/+
+5dlm1YyjI3HIh7pbOqDq6NywEo5nOqzMw/LOiQzjF/lSGoPMCOJoAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="df7b39ec-0330-4d2f-9178-a3c9ccc4b069"
+		isrooted="True"
+		name="XKLTestingAutomationRanorexRegress"
+		refpath="/form[@title='X:\KL Testing\Automation\Ranorex\Regression...\N7UK - Repository Browser - TortoiseGit']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="af4d2f81-0bcf-4513-b048-07da3353d3e9"
+			name="Cancel"
+			refimgid="829f9918-871f-4181-a9ac-e69208b539c8"
+			refpath="/form[@title~'^X:\\KL\ Testing\\Automation\\' and @processname='TortoiseGitProc']/button[@text='Cancel']"
+			searchtimeout="30000ms">
+				/form[@processname='TortoiseGitProc']/button[@text='Cancel']
+			</item>
+			<basepath>
+				/form[@processname='TortoiseGitProc']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIcSURBVDhP1ZBLaBNRFIYHBRVcuBHEhbq0iAUX
+WlGEoviMkmJJCQWfNUVsMmMVNSa1mSZNtShU8rBNsKQ4NhGTtBMMwQdopNA0EeOiElCEQMhCqKuo
+kIiT+zt3GCdWXLhx4QeH87j3/8/lMv8nExPpFfcTL4/Gn7xuUkeLuTn6aNJs9eH0BR84m/frq7cf
+1qlHCru7LoPpCmKTvue9Omow/24hG5+VMJ2FFnvbe5F6lmmm5x3R6FKj6y7kEk07jhToTMM7Lobi
+GQlGEy/HAFyjac0klPoIfyjpdAwFpkulEtg+N7rPD84xgvB0papnLrrCiGfqZGqOKCJqQjPtT5iH
+0dxygORyOZJIJEi9Xiep1GPCWIeDq7LZLJzXfd8iL75oBlT8q0E+nwcV0Ugmk+Qsa5dsQ5E1yuaD
+Bi5iMplwTxAwODajveBnjs1+hyRJioG8jCii3zF2O2OBQAC1Wo1c4f245H6AsWAIsVgczht3YLFY
+sK3VMM96PMtVSQOejy4rFosghECn08mJgEK30poG/bh2Q+eft7P9/jYq4DgO+/Snkrv2HwfLsopQ
+fhE2b9d/KhQKEASBnDxnf67KGrhHptZWKhXInwOPx4PV61tQLpdRrVYhiiLOmPsXbDYbwuEwzFav
+oMoW4/aLW9qMPZ937ul4Q/vDnVdHHI4BpNNptB46Frh2++FGs318q3L5b+F5LOm7NblBbf8FDPMD
+H3pvJnCnfSEAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="2654df99-4949-469f-8923-a7a15ddfd80a"
+		isrooted="True"
+		name="LinkedInLogInOrSignUpGoogleChr"
+		refimgid="be4caf40-da4f-41bc-b1a2-08628ef96273"
+		refpath="/form[@title~'^LinkedIn:\ Log\ In\ or\ Sign\ ']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^LinkedIn:\ Log\ In\ or\ Sign\ ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALpSURBVDhPrZJrSFNhHMZXQSAEfchpLawM+9AX
+8UNgV8/O3KzNzVu70C5qU6GgIIMiFBIC6aIRSIF3t5zRPUzTUqP71szNykvmdo7QCAxJym06tp3z
+dDyu+hB+64EH3g//3+/9v/AK/mu+qNVxtDEnfUorv0RrFV2UWu6g82Uf6DxZN5UnrfPkkqbx/P0b
+YuP/xqPOSqENuaO0+gDog/tBF2SBA0HlZoLKIbmzJEjlZZlj439jV++Me56dvu1jgazJq5EHlhN4
+VWLGo5RM0AVkRgxdyvFK3e7yM2pfry4zNL4ILLeBSgxvNgGPknBOKYi0bxpiDS/Ybi25kNpczFQe
+VbAuJYGxU+V4a+vEg0eTbOvALPtmoBtU50lM35Fj7v4uzHfv9i/07nOH+4gdvGCrrfTh1o5SKKp1
+eCHfA3t7J87eDsBwNYicy0FUdMzi0+dJzNmPIPosA9GX+5jo64wQXhFiXpBsK7Un20qQ2lCEpoME
+7vZQPJx/JQhVbRAl9X409s3ii7MGrIME85YE6yQZ9p1ExguSrMUjm9rN2GwzQ3XRiIb+AA8qF1sT
+hLYuiNM3AphwWQC3jKuUayZYt1SxJLAUPU5qP4ylmlH/bCh6zOKH4VoABdwWp2zf0eXwYma4kodZ
+VybDDEnmI0OkhBeIrKb6jdeL8btl/Y14OjKD6gdzKGvy494rL4bft8I/bOAFjIuDnaQn7BCn84KN
+VlOZyGKKiKyFrMhahLRbJ5DXVYtjT26hou8xrvacxw93ISLubH517nYfM0jWLtiJFF6Q2KbbktCs
+r1pvMU0lWkz4WyMSG/SgXyr+vBtuCSKDZBNGNatRVbWSF/CBYEVii0Gb0GocE7YZQgkcLGzV49xN
+FcO4ZCx3a5QZIqfDTrEVlHRtjPo3wma9RthyyBffpse6Rh2+vlGEODAaHhT/5OHR2O9bLutbDgs5
+wd74Fp0y6Vp+oe95VmHEJVGF7WIi5MrYDmhWxUa5CAS/AHJY5UDHeBMWAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="8ddb12d4-15ca-4dc3-9813-a7ae602b3f79"
+		isrooted="True"
+		name="CochlearLinkedInGoogleChrome"
+		refimgid="d37311ef-dc65-4257-bfbe-8bbe3bdcd76e"
+		refpath="/form[@title~'^Cochlear\ \|\ LinkedIn\ -\ Goo']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^Cochlear\ \|\ LinkedIn\ -\ Goo']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALpSURBVDhPrZJrSFNhHMZXQSAEfchpLawM+9AX
+8UNgV8/O3KzNzVu70C5qU6GgIIMiFBIC6aIRSIF3t5zRPUzTUqP71szNykvmdo7QCAxJym06tp3z
+dDyu+hB+64EH3g//3+/9v/AK/mu+qNVxtDEnfUorv0RrFV2UWu6g82Uf6DxZN5UnrfPkkqbx/P0b
+YuP/xqPOSqENuaO0+gDog/tBF2SBA0HlZoLKIbmzJEjlZZlj439jV++Me56dvu1jgazJq5EHlhN4
+VWLGo5RM0AVkRgxdyvFK3e7yM2pfry4zNL4ILLeBSgxvNgGPknBOKYi0bxpiDS/Ybi25kNpczFQe
+VbAuJYGxU+V4a+vEg0eTbOvALPtmoBtU50lM35Fj7v4uzHfv9i/07nOH+4gdvGCrrfTh1o5SKKp1
+eCHfA3t7J87eDsBwNYicy0FUdMzi0+dJzNmPIPosA9GX+5jo64wQXhFiXpBsK7Un20qQ2lCEpoME
+7vZQPJx/JQhVbRAl9X409s3ii7MGrIME85YE6yQZ9p1ExguSrMUjm9rN2GwzQ3XRiIb+AA8qF1sT
+hLYuiNM3AphwWQC3jKuUayZYt1SxJLAUPU5qP4ylmlH/bCh6zOKH4VoABdwWp2zf0eXwYma4kodZ
+VybDDEnmI0OkhBeIrKb6jdeL8btl/Y14OjKD6gdzKGvy494rL4bft8I/bOAFjIuDnaQn7BCn84KN
+VlOZyGKKiKyFrMhahLRbJ5DXVYtjT26hou8xrvacxw93ISLubH517nYfM0jWLtiJFF6Q2KbbktCs
+r1pvMU0lWkz4WyMSG/SgXyr+vBtuCSKDZBNGNatRVbWSF/CBYEVii0Gb0GocE7YZQgkcLGzV49xN
+FcO4ZCx3a5QZIqfDTrEVlHRtjPo3wma9RthyyBffpse6Rh2+vlGEODAaHhT/5OHR2O9bLutbDgs5
+wd74Fp0y6Vp+oe95VmHEJVGF7WIi5MrYDmhWxUa5CAS/AHJY5UDHeBMWAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

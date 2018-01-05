@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="149b59a2f99c615d"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mmatisa"
+		rxversion="8.0.0.0"
+		host="CMY-PC0L2L7S"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-AU"
+		screenresolution="3840x1080"
+		timestamp="29/12/2017 11:02:25 AM"
+		timestampiso="2017-12-29T03:02:25"
+		endtime="29/12/2017 11:02:56 AM"
+		timeoutfactor="1"
+		module="Footer">
+		<detail>
+			Footer
+		</detail>
+		<errormessage>
+			Failed to find item 'N7UKRepository.CochlearImplantSoundProcessorNucleus.Self'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.839"
+			timeRelativeToTestModuleStartTime="00:00.842"
+			timeWallClock="11:02:26"
+			time="00:00.839"
+			level="Info"
+			category="Website"
+			errimg=".\Footer20_7b07df20_259b5f0c_trace.jpg"
+			errthumb=".\Footer20_7b07df20_259b5f0c_trace_thumb.jpg">
+			<message>
+				Opening web site 'http://www.hearyourway.com/wps/wcm/connect/uk/n7/home' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.947"
+			timeRelativeToTestModuleStartTime="00:00.950"
+			timeWallClock="11:02:26"
+			time="00:00.947"
+			level="Info"
+			category="Mouse"
+			errimg=".\Footer20_7b07df20_8e64ef2f_trace.jpg"
+			errthumb=".\Footer20_7b07df20_8e64ef2f_trace_thumb.jpg">
+			<message>
+				Mouse Left Down item 'CochlearImplantSoundProcessorNucleus' at 1909;87.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']"
+				itempath="/dom[@domain='www.hearyourway.com']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.Self"
+				id="f79cd6f4d6254f09a993064eeceab6ff"
+				timeout="30000"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.112"
+			timeRelativeToTestModuleStartTime="00:31.115"
+			timeWallClock="11:02:56"
+			time="00:31.112"
+			level="Error"
+			category="Module"
+			errimg=".\Footer20_7b07df20_649149b8_trace.jpg"
+			errthumb=".\Footer20_7b07df20_649149b8_trace_thumb.jpg">
+			<message>
+				Failed to find item 'N7UKRepository.CochlearImplantSoundProcessorNucleus.Self'.<br/>No element found for path '/dom[@domain='www.hearyourway.com']' within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at N7UK.N7UKRepositoryFolders.CochlearImplantSoundProcessorNucleusAppFolder.get_Self()&#13;&#10;   at N7UK.Footer.Ranorex.Core.Testing.ITestModule.Run()&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']"
+				itempath="/dom[@domain='www.hearyourway.com']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.Self"
+				id="f79cd6f4d6254f09a993064eeceab6ff"
+				timeout="30000"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

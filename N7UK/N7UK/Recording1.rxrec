@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d1a9741f-6f82-4b51-aaf7-f01d78e5fdad"
+mode="Global"
+rxversion="8.0">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="N7UK">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="9e05b9d6-c181-4832-b9ab-fe223d931929"
+	name="N7UKRepository"
+	relativepath="N7UKRepository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="N7UKRepository"
+		namespace="N7UK">
+		</codegen>
+		<rootfolder
+		id="fc792e7a-1173-4113-8595-5843d9e247a1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

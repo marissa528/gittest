@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="14bedda41f9b47f0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="mmatisa"
+		rxversion="7.2.1.0"
+		host="CMY-PC0L2L7S"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-AU"
+		screenresolution="3840x1080"
+		timestamp="27/12/2017 10:08:39 AM"
+		timestampiso="2017-12-27T02:08:39"
+		endtime="27/12/2017 10:08:39 AM"
+		timeoutfactor="1"
+		module="Open_Browser">
+		<detail>
+			Open_Browser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.470"
+			timeRelativeToTestModuleStartTime="00:00.470"
+			timeWallClock="10:08:39"
+			time="00:00.470"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varEnv, varBrowser
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.490"
+			timeRelativeToTestModuleStartTime="00:00.490"
+			timeWallClock="10:08:39"
+			time="00:00.490"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site URL in variable $varEnv with browser specified by variable $varBrowser in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="x:\KL Testing\Automation\Ranorex\Regression\N7UK\N7UK\N7UK\Open_Browser.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
