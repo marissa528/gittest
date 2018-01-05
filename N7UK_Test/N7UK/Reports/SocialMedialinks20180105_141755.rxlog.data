@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="18c6d1d5c3c097b0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mmatisa"
+		rxversion="8.0.0.0"
+		host="CMY-PC0L2L7S"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-AU"
+		screenresolution="3840x1080"
+		timestamp="5/01/2018 2:17:58 PM"
+		timestampiso="2018-01-05T06:17:58"
+		endtime="5/01/2018 2:18:42 PM"
+		timeoutfactor="1"
+		module="SocialMedialinks">
+		<detail>
+			SocialMedialinks
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.784"
+			timeRelativeToTestModuleStartTime="00:00.784"
+			timeWallClock="14:17:58"
+			time="00:00.784"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://www.hearyourway.com/wps/wcm/connect/uk/n7/home' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.984"
+			timeRelativeToTestModuleStartTime="00:00.984"
+			timeWallClock="14:17:59"
+			time="00:00.984"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CochlearImplantSoundProcessorNucleus.UtilityNav.Adult'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Adult']"
+				itempath="?/?/a[@innertext='Adult']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.UtilityNav.Adult"
+				id="07e953a77de548ec9c0d9411754ccc9d"
+				timeout="90000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.309"
+			timeRelativeToTestModuleStartTime="00:03.309"
+			timeWallClock="14:18:01"
+			time="00:03.309"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Adult' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Adult']"
+				itempath="?/?/a[@innertext='Adult']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.UtilityNav.Adult"
+				id="07e953a77de548ec9c0d9411754ccc9d"
+				timeout="90000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.419"
+			timeRelativeToTestModuleStartTime="00:03.419"
+			timeWallClock="14:18:01"
+			time="00:03.419"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'CochlearImplantSoundProcessorNucleus' at 1912;87.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']"
+				itempath="/dom[@domain='www.hearyourway.com']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.Self"
+				id="f79cd6f4d6254f09a993064eeceab6ff"
+				timeout="30000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.232"
+			timeRelativeToTestModuleStartTime="00:04.232"
+			timeWallClock="14:18:02"
+			time="00:04.232"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'CochlearImplantSoundProcessorNucleus' at 1919;501.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']"
+				itempath="/dom[@domain='www.hearyourway.com']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.Self"
+				id="f79cd6f4d6254f09a993064eeceab6ff"
+				timeout="30000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.018"
+			timeRelativeToTestModuleStartTime="00:05.018"
+			timeWallClock="14:18:03"
+			time="00:05.018"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaFacebookFaSocialCircular'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[1]/?/?/span"
+				itempath="li[1]/?/?/span"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaFacebookFaSocialCircular"
+				id="e65dffc270fb44ef924898d54eae0d31"
+				timeout="90000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="100"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.207"
+			timeRelativeToTestModuleStartTime="00:05.207"
+			timeWallClock="14:18:03"
+			time="00:05.207"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'FaFaFacebookFaSocialCircular' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[1]/?/?/span"
+				itempath="li[1]/?/?/span"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaFacebookFaSocialCircular"
+				id="e65dffc270fb44ef924898d54eae0d31"
+				timeout="90000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="101"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.317"
+			timeRelativeToTestModuleStartTime="00:05.317"
+			timeWallClock="14:18:03"
+			time="00:05.317"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaFacebookFaSocialCircular' at 33;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[1]/?/?/span"
+				itempath="li[1]/?/?/span"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaFacebookFaSocialCircular"
+				id="e65dffc270fb44ef924898d54eae0d31"
+				timeout="90000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="104"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.360"
+			timeRelativeToTestModuleStartTime="00:06.360"
+			timeWallClock="14:18:04"
+			time="00:06.360"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CochlearUKIEHalamanUtamaFacebo.FbLogoImgSpLda9yxacsCe15xSx7f214'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.facebook.com']//div[#'blueBarDOMInspector']/div/div/div/div[1]/a[@title~'^Pergi\ ke\ Halaman\ Utama\ Fa']/i"
+				itempath=".//div[#'blueBarDOMInspector']/div/div/div/div[1]/a[@title~'^Pergi\ ke\ Halaman\ Utama\ Fa']/i"
+				fullname="N7UKRepository.CochlearUKIEHalamanUtamaFacebo.FbLogoImgSpLda9yxacsCe15xSx7f214"
+				id="7f2a6fd6745a43beb856aa792aacaeac"
+				timeout="60000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="108"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.372"
+			timeRelativeToTestModuleStartTime="00:10.372"
+			timeWallClock="14:18:08"
+			time="00:10.372"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'FbLogoImgSpLda9yxacsCe15xSx7f214' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.facebook.com']//div[#'blueBarDOMInspector']/div/div/div/div[1]/a[@title~'^Pergi\ ke\ Halaman\ Utama\ Fa']/i"
+				itempath=".//div[#'blueBarDOMInspector']/div/div/div/div[1]/a[@title~'^Pergi\ ke\ Halaman\ Utama\ Fa']/i"
+				fullname="N7UKRepository.CochlearUKIEHalamanUtamaFacebo.FbLogoImgSpLda9yxacsCe15xSx7f214"
+				id="7f2a6fd6745a43beb856aa792aacaeac"
+				timeout="60000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="109"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.485"
+			timeRelativeToTestModuleStartTime="00:10.485"
+			timeWallClock="14:18:08"
+			time="00:10.485"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CochlearUKIEHalamanUtamaFacebo1' at 489;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Cochlear\ UK\ &amp;\ IE\ -\ Halama']"
+				itempath="/form[@title~'^Cochlear\ UK\ &amp;\ IE\ -\ Halama']"
+				fullname="N7UKRepository.CochlearUKIEHalamanUtamaFacebo1.Self"
+				id="d819795ed30b40179857cc451b80c466"
+				timeout="30000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="112"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.304"
+			timeRelativeToTestModuleStartTime="00:11.304"
+			timeWallClock="14:18:09"
+			time="00:11.304"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaTwitterFaSocialCircular'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[2]/?/?/span"
+				itempath="li[2]/?/?/span"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaTwitterFaSocialCircular"
+				id="8f5ab9d0958641ac9d448e094e99c82f"
+				timeout="90000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="116"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.340"
+			timeRelativeToTestModuleStartTime="00:12.340"
+			timeWallClock="14:18:10"
+			time="00:12.340"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'FaFaTwitterFaSocialCircular' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[2]/?/?/span"
+				itempath="li[2]/?/?/span"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaTwitterFaSocialCircular"
+				id="8f5ab9d0958641ac9d448e094e99c82f"
+				timeout="90000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="117"
+				loglvl="Success"
+				itemindex="8">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.450"
+			timeRelativeToTestModuleStartTime="00:12.450"
+			timeWallClock="14:18:10"
+			time="00:12.450"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaTwitterFaSocialCircular' at 29;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[2]/?/?/span"
+				itempath="li[2]/?/?/span"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaTwitterFaSocialCircular"
+				id="8f5ab9d0958641ac9d448e094e99c82f"
+				timeout="90000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="120"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.457"
+			timeRelativeToTestModuleStartTime="00:13.457"
+			timeWallClock="14:18:11"
+			time="00:13.457"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CochlearUKIEAtCochlearUKTwitter.IconIconBirdIconLarge'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='twitter.com']//li[#'global-nav-home']/a/span[1]"
+				itempath=".//li[#'global-nav-home']/a/span[1]"
+				fullname="N7UKRepository.CochlearUKIEAtCochlearUKTwitter.IconIconBirdIconLarge"
+				id="73361b31fc764b099d06611afa1fa541"
+				timeout="60000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="124"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.522"
+			timeRelativeToTestModuleStartTime="00:15.522"
+			timeWallClock="14:18:13"
+			time="00:15.522"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'IconIconBirdIconLarge' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='twitter.com']//li[#'global-nav-home']/a/span[1]"
+				itempath=".//li[#'global-nav-home']/a/span[1]"
+				fullname="N7UKRepository.CochlearUKIEAtCochlearUKTwitter.IconIconBirdIconLarge"
+				id="73361b31fc764b099d06611afa1fa541"
+				timeout="60000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="125"
+				loglvl="Success"
+				itemindex="10">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.627"
+			timeRelativeToTestModuleStartTime="00:15.627"
+			timeWallClock="14:18:13"
+			time="00:15.627"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CochlearUKIEHalamanUtamaFacebo1' at 485;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Cochlear\ UK\ &amp;\ IE\ -\ Halama']"
+				itempath="/form[@title~'^Cochlear\ UK\ &amp;\ IE\ -\ Halama']"
+				fullname="N7UKRepository.CochlearUKIEHalamanUtamaFacebo1.Self"
+				id="d819795ed30b40179857cc451b80c466"
+				timeout="30000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="128"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.292"
+			timeRelativeToTestModuleStartTime="00:16.292"
+			timeWallClock="14:18:14"
+			time="00:16.292"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaYoutubeFaSocialCircular'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[3]/?/?/span"
+				itempath="li[3]/?/?/span"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaYoutubeFaSocialCircular"
+				id="a2f252461e3149bc9fe0c7490ea47f1b"
+				timeout="90000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="132"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.528"
+			timeRelativeToTestModuleStartTime="00:16.528"
+			timeWallClock="14:18:14"
+			time="00:16.528"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'FaFaYoutubeFaSocialCircular' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[3]/?/?/span"
+				itempath="li[3]/?/?/span"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaYoutubeFaSocialCircular"
+				id="a2f252461e3149bc9fe0c7490ea47f1b"
+				timeout="90000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="133"
+				loglvl="Success"
+				itemindex="12">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.638"
+			timeRelativeToTestModuleStartTime="00:16.638"
+			timeWallClock="14:18:14"
+			time="00:16.638"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaYoutubeFaSocialCircular' at 25;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[3]/?/?/span"
+				itempath="li[3]/?/?/span"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaYoutubeFaSocialCircular"
+				id="a2f252461e3149bc9fe0c7490ea47f1b"
+				timeout="90000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="136"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.648"
+			timeRelativeToTestModuleStartTime="00:17.648"
+			timeWallClock="14:18:15"
+			time="00:17.648"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'WebDocument2CochlearEuropeMiddleE.LogoIconContainer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.youtube.com']//div[#'logo-icon-container']"
+				itempath=".//div[#'logo-icon-container']"
+				fullname="N7UKRepository.WebDocument2CochlearEuropeMiddleE.LogoIconContainer"
+				id="97a490d187164e43a73a2ef42c85f61a"
+				timeout="60000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="140"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.546"
+			timeRelativeToTestModuleStartTime="00:20.546"
+			timeWallClock="14:18:18"
+			time="00:20.546"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'LogoIconContainer' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.youtube.com']//div[#'logo-icon-container']"
+				itempath=".//div[#'logo-icon-container']"
+				fullname="N7UKRepository.WebDocument2CochlearEuropeMiddleE.LogoIconContainer"
+				id="97a490d187164e43a73a2ef42c85f61a"
+				timeout="60000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="141"
+				loglvl="Success"
+				itemindex="14">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.665"
+			timeRelativeToTestModuleStartTime="00:20.665"
+			timeWallClock="14:18:18"
+			time="00:20.665"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CochlearEuropeMiddleEastAfricaY' at 488;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Cochlear\ Europe,\ Middle\ E']"
+				itempath="/form[@title~'^Cochlear\ Europe,\ Middle\ E']"
+				fullname="N7UKRepository.CochlearEuropeMiddleEastAfricaY.Self"
+				id="6f7dc230741540128b035c3c5a338f15"
+				timeout="30000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="144"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.468"
+			timeRelativeToTestModuleStartTime="00:21.468"
+			timeWallClock="14:18:19"
+			time="00:21.468"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaLinkedinFaSocialCircular'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[4]/?/?/span"
+				itempath="li[4]/?/?/span"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaLinkedinFaSocialCircular"
+				id="8417b7a78f294569b233fbed17fa04fc"
+				timeout="90000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="148"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.714"
+			timeRelativeToTestModuleStartTime="00:21.714"
+			timeWallClock="14:18:19"
+			time="00:21.714"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'FaFaLinkedinFaSocialCircular' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[4]/?/?/span"
+				itempath="li[4]/?/?/span"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaLinkedinFaSocialCircular"
+				id="8417b7a78f294569b233fbed17fa04fc"
+				timeout="90000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="149"
+				loglvl="Success"
+				itemindex="16">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.826"
+			timeRelativeToTestModuleStartTime="00:21.826"
+			timeWallClock="14:18:19"
+			time="00:21.826"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaLinkedinFaSocialCircular' at 26;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//section[#'content-footer']/?/?/div/ul/li[4]/?/?/span"
+				itempath="li[4]/?/?/span"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaLinkedinFaSocialCircular"
+				id="8417b7a78f294569b233fbed17fa04fc"
+				timeout="90000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="152"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.852"
+			timeRelativeToTestModuleStartTime="00:22.852"
+			timeWallClock="14:18:20"
+			time="00:22.852"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='') on item 'WebDocument1CochlearOverviewLink.LinkedIn1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']/?/?/header/?/?/a[@title='LinkedIn']"
+				itempath="?/?/header/?/?/a[@title='LinkedIn']"
+				fullname="N7UKRepository.WebDocument1CochlearOverviewLink.LinkedIn1"
+				id="cab13272d3e1431ea65ca77fefa1b90b"
+				timeout="60000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="156"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.481"
+			timeRelativeToTestModuleStartTime="00:23.481"
+			timeWallClock="14:18:21"
+			time="00:23.481"
+			level="Success"
+			category="Validation"
+			errimg=".\SocialMe_f8313f3b_e88bf8c4_trace.jpg"
+			errthumb=".\SocialMe_f8313f3b_e88bf8c4_trace_thumb.jpg">
+			<message>
+				Attribute 'InnerText' of element for item 'N7UKRepository.WebDocument1CochlearOverviewLink.LinkedIn1' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.linkedin.com']/?/?/header/?/?/a[@title='LinkedIn']"
+				itempath="?/?/header/?/?/a[@title='LinkedIn']"
+				fullname="N7UKRepository.WebDocument1CochlearOverviewLink.LinkedIn1"
+				id="cab13272d3e1431ea65ca77fefa1b90b"
+				timeout="60000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="157"
+				loglvl="Success"
+				itemindex="18">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.592"
+			timeRelativeToTestModuleStartTime="00:23.592"
+			timeWallClock="14:18:21"
+			time="00:23.592"
+			level="Info"
+			category="Mouse"
+			errimg=".\SocialMe_f8313f3b_07d376ec_trace.jpg"
+			errthumb=".\SocialMe_f8313f3b_07d376ec_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'LinkedInLogInOrSignUpGoogleChr' at 484;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^LinkedIn:\ Log\ In\ or\ Sign\ ']"
+				itempath="/form[@title~'^LinkedIn:\ Log\ In\ or\ Sign\ ']"
+				fullname="N7UKRepository.LinkedInLogInOrSignUpGoogleChr.Self"
+				id="2654df994949469f8923a7a15ddfd80a"
+				timeout="30000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="160"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.002"
+			timeRelativeToTestModuleStartTime="00:44.002"
+			timeWallClock="14:18:42"
+			time="00:44.002"
+			level="Error"
+			category="User"
+			errimg=".\SocialMe_f8313f3b_815eefc1_trace.jpg"
+			errthumb=".\SocialMe_f8313f3b_815eefc1_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

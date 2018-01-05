@@ -1,0 +1,9 @@
+C:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\bin\Debug\N7UK.rxtmg
+C:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\bin\Debug\N7UK.rxtst
+C:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\bin\Debug\N7UK_Test.exe.config
+C:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\bin\Debug\N7UK_Test.exe
+C:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\bin\Debug\N7UK_Test.pdb
+C:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\obj\x86\Debug\N7UK_Test.csprojResolveAssemblyReference.cache
+C:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\obj\x86\Debug\N7UK_Test.exe
+C:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\obj\x86\Debug\N7UK_Test.pdb

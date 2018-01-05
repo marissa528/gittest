@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.15s"
+		durationms="9153"
+		type="root"
+		rid="7f4fbea6a44f1f7"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mmatisa"
+		rxversion="8.0.0.0"
+		host="CMY-PC0L2L7S"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-AU"
+		screenresolution="3840x1080"
+		timestamp="5/01/2018 2:13:12 PM"
+		timestampiso="2018-01-05T06:13:12"
+		endtime="5/01/2018 2:13:21 PM"
+		timeoutfactor="1"
+		module="SocialMedialinks">
+		<detail>
+			SocialMedialinks
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.759"
+			timeRelativeToTestModuleStartTime="00:00.761"
+			timeWallClock="14:13:13"
+			time="00:00.759"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'CochlearImplantSoundProcessorNucleus.UtilityNav.Adult'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.hearyourway.com']//header[#'header']/nav//ul/?/?/a[@innertext='Adult']"
+				itempath="?/?/a[@innertext='Adult']"
+				fullname="N7UKRepository.CochlearImplantSoundProcessorNucleus.UtilityNav.Adult"
+				id="07e953a77de548ec9c0d9411754ccc9d"
+				timeout="90000"
+				codefile="c:\Users\mmatisa\Documents\Ranorex\RanorexStudio Projects\Marini\N7UK_Test\N7UK\SocialMedialinks.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.153"
+			timeRelativeToTestModuleStartTime="00:09.155"
+			timeWallClock="14:13:21"
+			time="00:09.153"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
