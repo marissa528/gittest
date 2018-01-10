@@ -153,15 +153,23 @@ namespace N7UK
             repo.CochlearImplantSoundProcessorNucleus.ListInlineListUnstyledSocialLinks.FaFaLinkedinFaSocialCircular.Click("26;20");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='') on item 'WebDocument1CochlearOverviewLink.LinkedIn1'.", repo.WebDocument1CochlearOverviewLink.LinkedIn1Info, new RecordItemIndex(18));
-            Validate.AttributeEqual(repo.WebDocument1CochlearOverviewLink.LinkedIn1Info, "InnerText", "");
+            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='') on item 'WebDocument1CochlearOverviewLink.LinkedIn1'.", repo.WebDocument1CochlearOverviewLink.LinkedIn1Info, new RecordItemIndex(18));
+            //Validate.AttributeEqual(repo.WebDocument1CochlearOverviewLink.LinkedIn1Info, "InnerText", "");
+            //Delay.Milliseconds(100);
+            
+            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Cochlear') on item 'WebDocument1CochlearOverviewLink.Cochlear'.", repo.WebDocument1CochlearOverviewLink.CochlearInfo, new RecordItemIndex(19));
+            //Validate.AttributeEqual(repo.WebDocument1CochlearOverviewLink.CochlearInfo, "InnerText", "Cochlear");
+            //Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'WebDocument1CochlearOverviewLink.LiIcon'.", repo.WebDocument1CochlearOverviewLink.LiIconInfo, new RecordItemIndex(20));
+            Validate.Exists(repo.WebDocument1CochlearOverviewLink.LiIconInfo);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CochlearLinkedInGoogleChrome' at 486;28.", repo.CochlearLinkedInGoogleChrome.SelfInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CochlearLinkedInGoogleChrome' at 486;28.", repo.CochlearLinkedInGoogleChrome.SelfInfo, new RecordItemIndex(21));
             repo.CochlearLinkedInGoogleChrome.Self.Click("486;28");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'CochlearImplantSoundProcessorNucleus.UtilityNav.Adult'.", repo.CochlearImplantSoundProcessorNucleus.UtilityNav.AdultInfo, new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'CochlearImplantSoundProcessorNucleus.UtilityNav.Adult'.", repo.CochlearImplantSoundProcessorNucleus.UtilityNav.AdultInfo, new RecordItemIndex(22));
             Validate.Exists(repo.CochlearImplantSoundProcessorNucleus.UtilityNav.AdultInfo);
             Delay.Milliseconds(100);
             

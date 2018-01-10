@@ -1881,6 +1881,16 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[@domain='www.linkedin.com']/?/?/header/?/?/a[@title='LinkedIn']
 			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="fbd29f0f-f533-4af0-a353-3f30d32cc963"
+			name="Cochlear"
+			refimgid="49939d6c-63ab-44d1-808b-598a2fc13a18"
+			refpath="/dom[@domain='www.linkedin.com']//div[#'stream-promo-top-bar']/div[2]/div[1]/div[1]/div/h1/span[@innertext='Cochlear']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.linkedin.com']//div[#'stream-promo-top-bar']/div[2]/div[1]/div[1]/?/?/h1/span[@innertext='Cochlear']
+			</item>
 			<basepath>
 				/dom[@domain='www.linkedin.com']
 			</basepath>

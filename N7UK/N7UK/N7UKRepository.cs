@@ -4667,6 +4667,7 @@ namespace N7UK
             RepoItemInfo _liiconInfo;
             RepoItemInfo _signinInfo;
             RepoItemInfo _linkedin1Info;
+            RepoItemInfo _cochlearInfo;
 
             /// <summary>
             /// Creates a new WebDocument1CochlearOverviewLink  folder.
@@ -4680,6 +4681,7 @@ namespace N7UK
                 _liiconInfo = new RepoItemInfo(this, "LiIcon", "?/?/header/?/?/a[@title='LinkedIn']/tag[@tagname='li-icon']", 30000, null, "6ba108ab-7bcb-4aaa-86ac-e6024fb95614");
                 _signinInfo = new RepoItemInfo(this, "SignIn", "?/?/header/?/?/nav/ul/?/?/a[@innertext='Sign in']", 30000, null, "85625426-e2e5-46da-8cb0-c6e261c54cee");
                 _linkedin1Info = new RepoItemInfo(this, "LinkedIn1", "?/?/header/?/?/a[@title='LinkedIn']", 30000, null, "5a4dd264-eee2-43c2-9654-48d7353d6fe7");
+                _cochlearInfo = new RepoItemInfo(this, "Cochlear", ".//div[#'stream-promo-top-bar']/div[2]/div[1]/div[1]/?/?/h1/span[@innertext='Cochlear']", 30000, null, "fbd29f0f-f533-4af0-a353-3f30d32cc963");
             }
 
             /// <summary>
@@ -4847,6 +4849,30 @@ namespace N7UK
                 get
                 {
                     return _linkedin1Info;
+                }
+            }
+
+            /// <summary>
+            /// The Cochlear item.
+            /// </summary>
+            [RepositoryItem("fbd29f0f-f533-4af0-a353-3f30d32cc963")]
+            public virtual Ranorex.SpanTag Cochlear
+            {
+                get
+                {
+                    return _cochlearInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Cochlear item info.
+            /// </summary>
+            [RepositoryItemInfo("fbd29f0f-f533-4af0-a353-3f30d32cc963")]
+            public virtual RepoItemInfo CochlearInfo
+            {
+                get
+                {
+                    return _cochlearInfo;
                 }
             }
         }
